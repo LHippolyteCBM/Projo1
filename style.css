@@ -3,3 +3,43 @@
     --textColor: black;
     --police: roboto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS THINGS TO DO */
+
+/*version mobile */
+.banner-things {
+    background-image: url(Images/banner-things-to-do.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner-things h1 {
+    color: white;
+    background-color: #7f00ff;
+    padding: 3%;
+}
