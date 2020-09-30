@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php include 'header.php';?>
+    <?php include 'burger.php';?>
     <?php include 'footer.php';?>    
     <script src="burger.js"></script>
     <script src="main.js"></script>
