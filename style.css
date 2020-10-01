@@ -1,5 +1,132 @@
 :root{
-    --background: white;
+    --background: lightblue;
     --textColor: black;
-    --police: roboto;
+    --backgroundmain: grey;
+    --policefooter: 'Lobster', cursive;
+    --fontbanner: 'Monoton', cursive;
+}
+html, body {
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100%;
+    display : table;
+    width: 100%;
+}
+@media screen and (min-width: 300px) and (max-width: 730px) {
+    .footer {
+    display: table-row;
+    background-color: var(--background);
+    text-align: center;
+    font-size: medium;
+    font-family: var(--policefooter);
+    }
+    div p {
+        font-family: serif;
+        font-size: small;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    ul li{
+        display: inline;
+        padding: 0px 10px 0px 10px;
+    }
+    ul img {
+        width: 20px;
+        height: 20px;
+    }
+    .travellerImg {
+        width: 100%;
+        height: 240px;
+    }
+    header div{
+        background-color: var(--background);
+        height: 120px;
+    }
+    .positionimg{
+        position: relative;
+    }
+    .textbanner {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 22px;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Monoton', cursive;
+      }
+      .maincontent{
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 731px){
+    .footer {
+        display: table-row;
+        background-color: var(--background);
+        text-align: center;
+        font-size: large;
+        font-family: var(--policefooter);
+      }
+    div p {
+        font-family: serif;
+        font-size: small;
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    ul li{
+        display: inline;
+        padding: 0px 10px 0px 10px;
+    }
+    ul img {
+        width: 60px;
+        height: 60px;
+    }
+    .travellerImg {
+        width: 100%;
+        height: 582px;
+    }
+    header div{
+        background-color: var(--background);
+        height: 250px;
+    }
+    .positionimg{
+        position: relative;
+    }
+    .textbanner {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Monoton', cursive;
+      }
+    div p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    .maincontent{
+        margin-top: -100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        position: relative;
+        background-color: white;
+    }
+    html body{
+        background-color: var(--backgroundmain);
+    }
 }
