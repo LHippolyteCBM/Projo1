@@ -7,9 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php include 'header.php';?>
-    <?php include 'footer.php';?>
-    <script src="main.js"></script>
 
+    <header>
+        <?php include "header.php" ?>
+        <div class="banniere-traveller">
+            <h1 class="title-traveller">Transports</h1>
+
+        </div>
+    </header>
+    
+
+    <main>
+        <div class="global-card-container">
+            
+        </div>
+    </main>
+
+
+    <?php include 'burger.php'; ?>
+    <footer>
+        <?php include 'footer.php'; ?>
+    </footer>
+    <script src="burger.js"></script>
+    <script src="card.js"></script>
 </body>
 </html>

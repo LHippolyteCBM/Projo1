@@ -473,3 +473,75 @@ button:focus {
 
 
 /*  BURGER CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Traveller */
+
+
+.banniere-traveller {
+    height: 30em;
+    background-image: url("img/travellerBannner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-traveller{
+    color: white;
+    
+}
+
+/* Fin de CSS Traveller */
