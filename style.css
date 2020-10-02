@@ -1,5 +1,318 @@
-:root{
+:root {
     --background: white;
     --textColor: black;
     --police: roboto;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* TRY SQUELETTE */ 
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    border-bottom: solid black 1px;
+    background-color: white;
+}
+li {
+    padding: 2em;
+    
+}
+.banniere {
+    height: 30em;
+    background-image: url("img/earth.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+
+}
+main{
+    margin: -70px 10% 0 10% ;
+    background-color: red;
+    z-index: 800;
+}
+
+/* TRY SQUELETTE */ 
+
+
+/* NAV */ 
+
+.liburger a {
+    background:
+       linear-gradient(
+         to bottom, lime 100%,
+         lime 100%
+       );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition:  0.7s;
+  }
+  a:hover {
+    background-size: 4px 50px;
+  }
+
+/* NAV */ 
+
+/* CARD */ 
+
+.global-card-container {
+    display: flex;
+    justify-content: space-around;
+    height: 40em;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    height: 30em;
+    width: 20em;
+    /*border-radius: 15px;*/
+    position: relative;
+    transition: .2s;
+            -webkit-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+            -moz-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+            box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+}
+.card-container:hover {
+   transform: scale(1.05);
+            -webkit-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
+            -moz-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
+            box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
+}
+.card-header {
+    background-color: lightgrey;
+    height: 18em;
+    width: 20em;
+    /*border-top-left-radius: 15px;
+    border-top-right-radius: 15px;*/
+    position: absolute;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.card-button {
+    padding: 15px 30px 15px 30px;
+    margin-top: 25em;
+    /*border-radius: 10px;*/
+    background-color: lightgray;
+    position: absolute;
+    transition: .2s;
+        -webkit-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+        -moz-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+        box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+    cursor: pointer;
+}
+.card-container-expanded {
+    padding-bottom: 5em;
+}
+.card-button-expanded {
+    padding: 15px 30px 15px 30px;
+    margin-top: 30em;
+    border-radius: 10px;
+    background-color: lightgray;
+    position: absolute;
+}
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+.subscribe-title {
+    position: absolute;
+    margin-top: -0.8em;
+    margin-right: 1em;
+    margin-left: -1em;
+    font-size: 10em;
+}
+.left-block {
+    background-color: #2B303C;
+    height: 25em;
+    width: 30em;
+}
+.left-text {
+    color: #eaeaea;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    font-size: 3em;
+    font-weight: bold;
+}
+.right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9BA6B4;
+    height: 25em;
+    width: 30em;
+}
+.subscribe-button {
+    background-color: #202020;
+    color: whitesmoke;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    margin-top: 2em;
+    margin-left: 16.5em;
+    transition: 0.5s;
+}
+.subscribe-button:hover {
+    transform: scale(1.05);
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+.subscribe-button:focus {
+    outline: 0;
+}
+.require-email {
+    margin-right: 0em;
+    font-size: 2em;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+}
+.border-input {
+    border-top: 3px solid rgba(255,255,255,0.4);
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 1px;
+}
+.border-input:focus {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+/* CARD */
+
+/*  BURGER CSS */
+
+.wrapper {
+    display: inline-block;
+    cursor: pointer;
+}
+#bar1,
+#bar2,
+#bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 30px;
+}
+.changeTop {    
+    transform: rotate(-45deg) translate(-7px, 1px);
+}
+.changeMid {
+    opacity: 0;
+}
+.changeBot {    
+    transform: rotate(45deg) translate(-10px, -7px);
+}
+.menuBurger ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    height: 100%;
+}
+.menuBurger li:hover {
+    background-color: brown;
+}
+.menuBurger li {
+    width: 100%;
+    height: 100%;
+    padding-left: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.3s;
+}
+.menuBurger {
+    background-color: rgb(170, 170, 170);
+    position: absolute;
+    width: 100%;
+    display: none;
+    height: 15em;
+}
+.menuBurger a {
+    color: black;
+    text-decoration: none;
+}
+.icone-burger {
+    max-height: 2.5em;
+    align-self: center;
+}
+button:focus {
+    outline: 0;
+}
+.burger {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+    bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.animOn {
+    animation: appa 0.5s ease-in-out;
+}
+.animOff {
+    animation: appa 0.5s ease-in-out reverse;
+}
+@keyframes appa {
+    0% {
+        height: 0;
+        border-radius: 80% 80% 0 0;
+    }
+    75% {
+        height: 16em;
+    }
+    100% {
+        height: 15em;
+    }
+}
+@media screen and (max-width:960px) {
+    .burger {
+        display: flex;
+    }
+    nav ul {
+        display: none;
+    }
+}
+/*  BURGER CSS */
+
+/* FOOTER */
+.footer li{
+    display: inline-flex;
+}
+.firsttextfooter{
+    font-size: 24px;
+}
+.lifooter img {
+    width: 60px;
+    height: 60px;
+}
+.footer{
+    text-align: center;
+}
+
+/* FOOTER */
