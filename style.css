@@ -513,8 +513,6 @@ main{
     grid-row: 2;
     grid-column: 1/4;
     justify-self: start;
-    
-
 }
 
 .robot-img-cadre {
@@ -560,6 +558,7 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 1em;    
+  
 }
 
 .certif-text {
@@ -582,10 +581,28 @@ main{
     max-width: 60%;
     display: block;
     height: auto;
+    
+
+}
+
+.rond-certif{
+    background-color: rgb(226, 226, 226);
+    border-radius: 100px;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
     transition: ease-in-out 0.2s;
 }
 
-.card-certif img:hover {
+.certification button {
+    margin-top: 0.5em;
+    height: 2em;
+    width: 8em;
+}
+
+.rond-certif:hover {
     transform: scale(1.1);
 }
 
@@ -659,7 +676,7 @@ main{
         transform: scale(0);
     }
     75%{
-        transform: scale(1.1) ;
+        transform: scale(1.05) ;
     }
     100% {
         transform: scale(1);
@@ -667,3 +684,79 @@ main{
 }
 
 /* APPARITION */
+
+
+
+
+
+
+
+
+
+
+
+/* POP DIV */ 
+
+
+
+.popDiv {  
+    display: none;       
+    padding: 1em;  
+    position: absolute;    
+}
+
+
+.visiblepopOn {
+    display: flex;
+    flex-direction: column;    
+    z-index: 8;
+    animation: pop 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+
+.visiblepopOff {
+    display: flex;
+    flex-direction: column;    
+    z-index: 8;
+    animation: pop 0.5s reverse;
+    animation-fill-mode: forwards;
+    
+}
+
+
+.triangle-pop{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 15px solid transparent;
+    border-bottom : 10px solid rgb(226, 226, 226);
+    border-left : 14px solid transparent;
+    align-self: center;
+}
+
+
+.text-inside-pp {
+    background-color: rgb(226, 226, 226);
+    padding: 1em;
+    border-radius: 15px;
+    width: 10em;
+}
+
+
+@keyframes pop {
+    0% {
+        transform: scale(0);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* POP DIV */ 

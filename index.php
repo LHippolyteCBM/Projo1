@@ -42,44 +42,90 @@
             </div>
         </div>
         <h2 class="certif-text">.Certification</h2>
+
         <div class="certification">
+
             <div class="card-certif appa">
-                <img src="icone/rsz_nuclear.png">
+                <div class="rond-certif">
+                    <img src="icone/rsz_nuclear.png">
+                </div>
                 <div class="button-text-certif">
                     <p>Nuclear friendly</p>
-                    <button>Read More</button>
+                    <button class="popBtn">Read More</button>
                 </div>
             </div>
+
+            <div class="popDiv">
+                <div class="triangle-pop"></div>
+                <div class="text-inside-pp">
+                    1
+                </div>
+            </div>
+
+
             <div class="card-certif appa">
-                <img src="icone/rsz_nuclear.png">
+                <div class="rond-certif">
+                    <img src="icone/rsz_nuclear.png">
+                </div>
                 <div class="button-text-certif">
                     <p>Nuclear friendly</p>
-                    <button>Read More</button>
+                    <button class="popBtn">Read More</button>
                 </div>
             </div>
+
+            <div class="popDiv">
+                <div class="triangle-pop"></div>
+                <div class="text-inside-pp">
+                    2
+                </div>
+            </div>
+
             <div class="card-certif appa">
-                <img src="icone/rsz_nuclear.png">
+                <div class="rond-certif">
+                    <img src="icone/rsz_nuclear.png">
+                </div>
                 <div class="button-text-certif">
                     <p>Nuclear friendly</p>
-                    <button>Read More</button>
+                    <button class="popBtn">Read More</button>
                 </div>
             </div>
+
+            <div class="popDiv">
+                <div class="triangle-pop"></div>
+                <div class="text-inside-pp">
+                    3
+                </div>
+            </div>
+
+
             <div class="card-certif appa">
-                <img src="icone/rsz_nuclear.png">
+                <div class="rond-certif">
+                    <img src="icone/rsz_nuclear.png">
+                </div>
                 <div class="button-text-certif">
                     <p>Nuclear friendly</p>
-                    <button>Read More</button>
+                    <button class="popBtn">Read More</button>
                 </div>
             </div>
+
+            <div class="popDiv">
+                <div class="triangle-pop"></div>
+                <div class="text-inside-pp">
+                    4
+                </div>
+            </div>
+
         </div>
+
+
         <div class="blabla">
             <p><b>Lorem ipsum, dolor sit ametde minima?</b></br>
-            Lorem, ipsum dolor sit amet 
-            consectetur adipisicing elit.</br>
-            * Ea, nulla! Blanditiis molestias mollitia doloribus natus</br>
-            veniam et commodi, nesciunt</br>
-             tempore quibusdam nostrum placeat ipsum </br>
-            laborum hic libero. Asperiores, libero corporis.</p>            
+                Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit.</br>
+                * Ea, nulla! Blanditiis molestias mollitia doloribus natus</br>
+                veniam et commodi, nesciunt</br>
+                tempore quibusdam nostrum placeat ipsum </br>
+                laborum hic libero. Asperiores, libero corporis.</p>
             <div class="robot-img-cadre appa">
                 <img class="robot-img" src="https://picsum.photos/400/300" alt="" />
             </div>
@@ -95,6 +141,7 @@
     <script src="burger.js"></script>
     <script src="apparition.js"></script>
     <script src="card.js"></script>
+    <script src="popBtn.js"></script>
 </body>
 
 </html>
