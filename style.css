@@ -2,14 +2,14 @@
     --background: white;
     --textColor: black;
     --police: roboto;
-    --backgroundHight: grey;
-    --backgroundMedium: blue;
-    --backgroundLow: green;
+    --backgroundHight: #73f340;
+    --backgroundMedium: #E0E8FC;
+    --backgroundLow: lightgray;
     --heightBannerDesktop: 30em;
     --heightBannerMobile: 15em;
     --bannerH1SizeDesktop: 4em;
     --bannerH1SizeMobile: 3em;
-    --bannerH2SizeMobile: 2em;
+    --bannerH2SizeDesktop: 2em;
     --bannerH2SizeMobile: 1.5em;
 
 }
@@ -51,7 +51,7 @@ li {
 
 main{
     margin: -70px 10% 0 10% ;
-    background-color: #F8FAFE;
+    background-color: var(--backgroundLow);
     z-index: 800;
     display:flex;
     flex-direction: column;
@@ -346,7 +346,7 @@ code couleur pour le vert fluo : #73f340
 .banner-things {
     background-size: cover;
     background-image: url(img/banner-things-to-do.jpg);
-    height: 30em;
+    height: var(--heightBannerDesktop);
     background-position: center;
     display: flex;
     justify-content: center;
@@ -355,7 +355,7 @@ code couleur pour le vert fluo : #73f340
 
 .banner-things h1 {
     color: white;
-    font-size: 4em;
+    font-size: var(--bannerH1SizeDesktop);
     background-color:rgba(115, 243, 64, 0.4);
     text-align: center;
 }
@@ -367,8 +367,8 @@ code couleur pour le vert fluo : #73f340
 
 .intro-things h2 {
     margin-bottom: 3%;
-    text-decoration: underline #73f340;
-    font-size: 2em;
+    text-decoration: underline var(--backgroundHight);
+    font-size: var(--bannerH2SizeDesktop);
 }
 .global-container-things {
     display: flex;
@@ -382,7 +382,7 @@ code couleur pour le vert fluo : #73f340
     /*margin: 2%;*/
     padding: 1%;
     margin: 2%;
-    background-color: #E0E8FC;
+    background-color: var(--backgroundMedium);
     box-shadow: 2px 4px 10px #CCD7F3;
 }
 
@@ -394,23 +394,21 @@ code couleur pour le vert fluo : #73f340
     margin: 3%;
 }
 
-main {
-    height: 1000px;
-}
+
 
 /*MOBILE */
 @media screen and (max-width:768px){
 
     .banner-things {
-        height: 15em;
+        height: var(--heightBannerMobile);
     }
 
     .banner-things h1 {
-        font-size: 3em;
+        font-size: var(--bannerH1SizeMobile);
     }
 
     .intro-things h2 {
-        font-size: 1.5em;
+        font-size: var(--bannerH2SizeMobile);
     }
 
     .global-container-things{
@@ -424,9 +422,15 @@ main {
     }
     
     main {
-        margin: -70px 5% 0 5%;
+       margin: -70px 5% 0 5%;
         
     }
+
+    /* J'enlève le footer pour la version mobile, comme prévu au début */
+    footer {
+        display: none;
+    }
+
 }
 /* FIN CSS THINGS TO DO  */
 
