@@ -2,6 +2,16 @@
     --background: white;
     --textColor: black;
     --police: roboto;
+    --backgroundHight: grey;
+    --backgroundMedium: blue;
+    --backgroundLow: green;
+    --heightBannerDesktop: 30em;
+    --heightBannerMobile: 15em;
+    --bannerH1SizeDesktop: 4em;
+    --bannerH1SizeMobile: 3em;
+    --bannerH2SizeMobile: 2em;
+    --bannerH2SizeMobile: 1.5em;
+
 }
 
 
