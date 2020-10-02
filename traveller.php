@@ -19,18 +19,30 @@
 
     <main class="main-traveller">
         
-                <div class="card-header">
-                    <h1>React</h1>
-                </div>
-                <div class="card-body">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
-                    </p>
-                    <a href="#" class="btn">Read more</a>
-                 </div>
+    <div class="card">
+        <div class="traveller-card-header">
+          <h1>Shutle</h1>
+        </div>
+        <div class="traveller-card-body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <!-- <a href="#" class="btn">Read more</a> -->
+        </div>
+      </div>
+      <div class="card">
+        <div class="traveller-card-header">
+          <h1>Orbital Elevator</h1>
+        </div>
+        <div class="traveller-card-body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <!-- <a href="#" class="btn">Read more</a> -->
+        </div>
+      </div>
         
     </main>
-
 
     <?php include 'burger.php'; ?>
     <footer>

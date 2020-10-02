@@ -11,65 +11,18 @@
     --bannerH1SizeMobile: 3em;
     --bannerH2SizeMobile: 2em;
     --bannerH2SizeMobile: 1.5em;}
-
 * {
     margin: 0;
     padding: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* TRY SQUELETTE */ 
-
 
 nav {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
-
 
 nav ul {
     display: flex;
@@ -78,12 +31,10 @@ nav ul {
     border-bottom: solid black 1px;
     background-color: white;
 }
-
 li {
     padding: 2em;
     
 }
-
 .banniere {
     height: 30em;
     background-image: url("img/earth.jpg");
@@ -92,11 +43,6 @@ li {
     z-index: 1;
 
 }
-
-
-
-
-
 main{
     margin: -70px 10% 0 10% ;
     background-color: red;
@@ -106,30 +52,9 @@ main{
 /* TRY SQUELETTE */ 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* NAV */ 
 
-
-
-a {
+.liburger a {
     background:
        linear-gradient(
          to bottom, lime 100%,
@@ -142,30 +67,19 @@ a {
     text-decoration: none;
     transition:  0.7s;
   }
-  
   a:hover {
     background-size: 4px 50px;
   }
 
-
-
 /* NAV */ 
 
-
-
-
-
-
 /* CARD */ 
-
-
 
 .global-card-container {
     display: flex;
     justify-content: space-around;
     height: 40em;
 }
-
 .card-container {
     display: flex;
     justify-content: center;
@@ -178,14 +92,12 @@ a {
             -moz-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
             box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
 }
-
 .card-container:hover {
    transform: scale(1.05);
             -webkit-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
             -moz-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
             box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
 }
-
 .card-header {
     background-color: lightgrey;
     height: 18em;
@@ -194,8 +106,6 @@ a {
     border-top-right-radius: 15px;*/
     position: absolute;
 }
-
-
 a {
     text-decoration: none;
     color: black;
@@ -212,11 +122,9 @@ a {
         box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
     cursor: pointer;
 }
-
 .card-container-expanded {
     padding-bottom: 5em;
 }
-
 .card-button-expanded {
     padding: 15px 30px 15px 30px;
     margin-top: 30em;
@@ -224,14 +132,12 @@ a {
     background-color: lightgray;
     position: absolute;
 }
-
 .subscribe-container {
     display: flex;
     justify-content: center;
     margin-top: 10em;
     margin-bottom: 10em;
 }
-
 .subscribe-title {
     position: absolute;
     margin-top: -0.8em;
@@ -239,13 +145,11 @@ a {
     margin-left: -1em;
     font-size: 10em;
 }
-
 .left-block {
     background-color: #2B303C;
     height: 25em;
     width: 30em;
 }
-
 .left-text {
     color: #eaeaea;
     padding-top: 1.5em;
@@ -253,7 +157,6 @@ a {
     font-size: 3em;
     font-weight: bold;
 }
-
 .right-block {
     display: flex;
     flex-direction: column;
@@ -263,8 +166,6 @@ a {
     height: 25em;
     width: 30em;
 }
-
-
 .subscribe-button {
     background-color: #202020;
     color: whitesmoke;
@@ -274,18 +175,15 @@ a {
     margin-left: 16.5em;
     transition: 0.5s;
 }
-
 .subscribe-button:hover {
     transform: scale(1.05);
     background-color: lightgrey;
     color: black;
     cursor: pointer;
 }
-
 .subscribe-button:focus {
     outline: 0;
 }
-
 .require-email {
     margin-right: 0em;
     font-size: 2em;
@@ -294,8 +192,6 @@ a {
     border: none;
     margin-top: 5px;
 }
-
-
 .border-input {
     border-top: 3px solid rgba(255,255,255,0.4);
     display: block;
@@ -303,63 +199,11 @@ a {
     width: 100%;
     height: 1px;
 }
-
 .border-input:focus {
     outline: -webkit-focus-ring-color auto 1px;
 }
 
-
-
-
-
-
-
 /* CARD */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  BURGER CSS */
 
@@ -367,7 +211,6 @@ a {
     display: inline-block;
     cursor: pointer;
 }
-
 #bar1,
 #bar2,
 #bar3 {
@@ -378,19 +221,15 @@ a {
     transition: 0.4s;
     border-radius: 30px;
 }
-
 .changeTop {    
     transform: rotate(-45deg) translate(-7px, 1px);
 }
-
 .changeMid {
     opacity: 0;
 }
-
 .changeBot {    
     transform: rotate(45deg) translate(-10px, -7px);
 }
-
 .menuBurger ul {
     display: flex;
     flex-direction: column;
@@ -400,11 +239,9 @@ a {
     justify-content: space-around;
     height: 100%;
 }
-
 .menuBurger li:hover {
     background-color: brown;
 }
-
 .menuBurger li {
     width: 100%;
     height: 100%;
@@ -414,7 +251,6 @@ a {
     align-items: center;
     transition: 0.3s;
 }
-
 .menuBurger {
     background-color: rgb(170, 170, 170);
     position: absolute;
@@ -422,21 +258,17 @@ a {
     display: none;
     height: 15em;
 }
-
 .menuBurger a {
     color: black;
     text-decoration: none;
 }
-
 .icone-burger {
     max-height: 2.5em;
     align-self: center;
 }
-
 button:focus {
     outline: 0;
 }
-
 .burger {
     position: fixed;
     display: none;
@@ -448,15 +280,12 @@ button:focus {
     padding-top: 1em;
     padding-bottom: 1em;
 }
-
 .animOn {
     animation: appa 0.5s ease-in-out;
 }
-
 .animOff {
     animation: appa 0.5s ease-in-out reverse;
 }
-
 @keyframes appa {
     0% {
         height: 0;
@@ -469,7 +298,6 @@ button:focus {
         height: 15em;
     }
 }
-
 @media screen and (max-width:960px) {
     .burger {
         display: flex;
@@ -478,8 +306,24 @@ button:focus {
         display: none;
     }
 }
+/*  BURGER CSS */
 
+/* FOOTER */
+.footer li{
+    display: inline-flex;
+}
+.firsttextfooter{
+    font-size: 24px;
+}
+.lifooter img {
+    width: 60px;
+    height: 60px;
+}
+.footer{
+    text-align: center;
+}
 
+/* FOOTER */
 /*  BURGER CSS */
 
 
@@ -553,28 +397,63 @@ button:focus {
 }
 .main-traveller{
     display: flex;
-    
-    
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
 }
-.traveller-card-container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-/*.fake-card {
+.card {
     width: 20%;
+    background: #fff;
     border: 1px solid #ccc;
     margin-bottom: 50px;
     transition: 0.3s;
-  }*/
+  }
   
-  .card-header {
+  .traveller-card-header {
     text-align: center;
     padding: 50px 10px;
+    color: lime;
   }
-  .card-body {
+  
+  .traveller-card-body {
     padding: 30px 20px;
     text-align: center;
     font-size: 18px;
   }
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .container {
+      width: 100%;
+    }
+  
+    .heading {
+      padding: 20px;
+      font-size: 20px;
+    }
+  
+    .card {
+      width: 80%;
+    }
+  }
+  
+  /*.traveller-card-body .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+  }*/
+
 /* Fin de CSS Traveller */
