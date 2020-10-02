@@ -473,3 +473,38 @@ button:focus {
 
 
 /*  BURGER CSS */
+
+
+
+/* BOOKING JW */
+.container-all{
+    background-color: lightgray;
+
+}
+.booking-h1{
+    text-align: center;
+}
+
+.container-form{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.block-left-form{
+    flex-direction: column;
+}
+
+.block-right-form{
+    flex-direction: column;
+}
+
+.block-cont-form{
+    display: flex;
+    justify-content: center;
+}
+
+.send-input-container{
+    display: flex;
+    justify-content: center;
+}
