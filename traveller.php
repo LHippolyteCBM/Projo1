@@ -12,35 +12,39 @@
         <?php include "header.php" ?>
         <div class="banniere-traveller">
             <h1 class="title-traveller">Transports</h1>
-
         </div>
     </header>
     
 
     <main class="main-traveller">
+    
+    <h2 class="traveller-h2">How to come to Earth ?</h2>
+    <div class="traveller-card-container">
+        <div class="card">
+            <div class="traveller-card-header">
+                <h3>By Shutle</h3>
+            </div>
+            <div class="traveller-card-body">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            </div>
+            <div class="traveller-shuttle-image">
+            </div>
+        </div>
         
-    <div class="card">
-        <div class="traveller-card-header">
-          <h1>Shutle</h1>
+        <div class="card">
+            <div class="traveller-card-header">
+                <h3>By Orbital Elevator</h3>
+            </div>
+            <div class="traveller-card-body">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            </div>
         </div>
-        <div class="traveller-card-body">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <!-- <a href="#" class="btn">Read more</a> -->
-        </div>
-      </div>
-      <div class="card">
-        <div class="traveller-card-header">
-          <h1>Orbital Elevator</h1>
-        </div>
-        <div class="traveller-card-body">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-          <!-- <a href="#" class="btn">Read more</a> -->
-        </div>
-      </div>
+    </div>
+    
         
     </main>
 
