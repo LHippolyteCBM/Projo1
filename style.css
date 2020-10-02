@@ -78,7 +78,7 @@ li {
 
 .banniere {
     height: 30em;
-    background-image: url("img/earth.jpg");
+    background-image: url("/img/alexander-andrews-eNoeWZkO7Zc-unsplash.jpg");
     background-size: cover;
     background-attachment: fixed;
     z-index: 1;
@@ -144,18 +144,62 @@ a {
 /* NAV */ 
 
 
+/* IMAGE-SLIDER */
 
+div.home-image-slider {
+    overflow: hidden;
+    height: 30em;
+    } 
+
+div.home-image-slider figure {
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}
+div.home-image-slider figure img {
+    width: 20%;
+    height: auto;
+    float: left; 
+}
+
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+div.home-image-slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+  }
+      
 
 
 
 /* CARD */ 
 
 
-
 .global-card-container {
     display: flex;
     justify-content: space-around;
     height: 40em;
+    margin-bottom: 50em;
 }
 
 .card-container {
@@ -206,12 +250,12 @@ a {
 }
 
 .card-container-expanded {
-    padding-bottom: 5em;
+    padding-bottom: 16em;
 }
 
 .card-button-expanded {
     padding: 15px 30px 15px 30px;
-    margin-top: 30em;
+    margin-top: 42em;
     border-radius: 10px;
     background-color: lightgray;
     position: absolute;
@@ -315,6 +359,29 @@ a {
 
 
 
+
+
+
+/* HOME */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.title-banner {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+}
+
+.main-page-container {
+    background-color: transparent;
+}
+
+.card-container-home {
+    width: 100%;
+}
+
+.card-header-home {
+    width: 100%;
+}
 
 
 

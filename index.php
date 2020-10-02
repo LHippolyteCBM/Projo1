@@ -11,15 +11,26 @@
 <body>
     <header>
         <?php include "header.php" ?>
-        <div class="banniere"></div>
+        <div class="banniere">
+            <h1 class="title-banner">Welcome!</h1>
+        </div>
     </header>
     
-
-    <main>
-        <div class="global-card-container">
-            <div class="card-container">
-                <div class="car-container-hidden"></div>
-                <div class="card-header"></div>
+    <main class="main-page-container">
+        <div class="global-card-container global-card-container-home">
+            <div class="card-container card-container-home">
+                <div class="card-container-hidden"></div>
+                <div class="card-header card-header-home">
+                <div class="home-image-slider">
+                    <figure>
+                        <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
+                        <img src="/img/adrien-converse-kCrrUx7US04-unsplash.jpg" alt>
+                        <img src="/img/leyy-71SHXwBLp5w-unsplash.jpg" alt>
+                        <img src="/img/zachary-smith-DgBNkXB-ckI-unsplash.jpg" alt>
+                        <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
+                    </figure>
+                </div>
+                </div>
                 <div class="card-button">Learn more</div>
             </div>
         </div>
