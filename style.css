@@ -2,6 +2,15 @@
     --background: white;
     --textColor: black;
     --police: roboto;
+    --backgroundHight: grey;
+    --backgroundMedium: blue;
+    --backgroundLow: green;
+    --heightBannerDesktop: 30em;
+    --heightBannerMobile: 15em;
+    --bannerH1SizeDesktop: 4em;
+    --bannerH1SizeMobile: 3em;
+    --bannerH2SizeMobile: 2em;
+    --bannerH2SizeMobile: 1.5em;
 }
 
 * {
@@ -57,9 +66,10 @@
 
 
 nav {
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 10000;
+    width: 100%;
 }
 
 
@@ -71,29 +81,12 @@ nav ul {
     background-color: white;
 }
 
-li {
+nav li {
     padding: 2em;
     
 }
 
-.banniere {
-    height: 30em;
-    background-image: url("img/earth.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: 1;
 
-}
-
-
-
-
-
-main{
-    margin: -70px 10% 0 10% ;
-    background-color: red;
-    z-index: 800;
-}
 
 /* TRY SQUELETTE */ 
 
@@ -121,7 +114,7 @@ main{
 
 
 
-a {
+/* a {
     background:
        linear-gradient(
          to bottom, lime 100%,
@@ -137,7 +130,7 @@ a {
   
   a:hover {
     background-size: 4px 50px;
-  }
+  } */
 
 
 
@@ -148,165 +141,7 @@ a {
 
 
 
-/* CARD */ 
 
-
-
-.global-card-container {
-    display: flex;
-    justify-content: space-around;
-    height: 40em;
-}
-
-.card-container {
-    display: flex;
-    justify-content: center;
-    height: 30em;
-    width: 20em;
-    /*border-radius: 15px;*/
-    position: relative;
-    transition: .2s;
-            -webkit-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
-            -moz-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
-            box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
-}
-
-.card-container:hover {
-   transform: scale(1.05);
-            -webkit-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
-            -moz-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
-            box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
-}
-
-.card-header {
-    background-color: lightgrey;
-    height: 18em;
-    width: 20em;
-    /*border-top-left-radius: 15px;
-    border-top-right-radius: 15px;*/
-    position: absolute;
-}
-
-
-a {
-    text-decoration: none;
-    color: black;
-}
-.card-button {
-    padding: 15px 30px 15px 30px;
-    margin-top: 25em;
-    /*border-radius: 10px;*/
-    background-color: lightgray;
-    position: absolute;
-    transition: .2s;
-        -webkit-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
-        -moz-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
-        box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
-    cursor: pointer;
-}
-
-.card-container-expanded {
-    padding-bottom: 5em;
-}
-
-.card-button-expanded {
-    padding: 15px 30px 15px 30px;
-    margin-top: 30em;
-    border-radius: 10px;
-    background-color: lightgray;
-    position: absolute;
-}
-
-.subscribe-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 10em;
-    margin-bottom: 10em;
-}
-
-.subscribe-title {
-    position: absolute;
-    margin-top: -0.8em;
-    margin-right: 1em;
-    margin-left: -1em;
-    font-size: 10em;
-}
-
-.left-block {
-    background-color: #2B303C;
-    height: 25em;
-    width: 30em;
-}
-
-.left-text {
-    color: #eaeaea;
-    padding-top: 1.5em;
-    padding-left: 1em;
-    font-size: 3em;
-    font-weight: bold;
-}
-
-.right-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #9BA6B4;
-    height: 25em;
-    width: 30em;
-}
-
-
-.subscribe-button {
-    background-color: #202020;
-    color: whitesmoke;
-    border: none;
-    padding: 15px 30px 15px 30px;
-    margin-top: 2em;
-    margin-left: 16.5em;
-    transition: 0.5s;
-}
-
-.subscribe-button:hover {
-    transform: scale(1.05);
-    background-color: lightgrey;
-    color: black;
-    cursor: pointer;
-}
-
-.subscribe-button:focus {
-    outline: 0;
-}
-
-.require-email {
-    margin-right: 0em;
-    font-size: 2em;
-    outline: none;
-    background-color: transparent;
-    border: none;
-    margin-top: 5px;
-}
-
-
-.border-input {
-    border-top: 3px solid rgba(255,255,255,0.4);
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 1px;
-}
-
-.border-input:focus {
-    outline: -webkit-focus-ring-color auto 1px;
-}
-
-
-
-
-
-
-
-/* CARD */
 
 
 
@@ -408,7 +243,7 @@ a {
 }
 
 .menuBurger {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(226, 226, 226);
     position: absolute;
     width: 100%;
     display: none;
@@ -434,11 +269,12 @@ button:focus {
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: rgb(170, 170, 170);
+    background-color:rgb(226, 226, 226);
     width: 100%;
     bottom: 0;
     padding-top: 1em;
     padding-bottom: 1em;
+    z-index: 200;
 }
 
 .animOn {
@@ -473,3 +309,361 @@ button:focus {
 
 
 /*  BURGER CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOME */ 
+
+
+.banniere-home {
+    
+    background-image: url("img/earth.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 0.5em;
+    height: 30em;    
+    color: white;    
+}
+
+.banniere-home h1 {
+    font-size: 4em;
+}
+
+main{
+    margin: -70px 10% 0 10% ;
+    background-color: white;
+    z-index: 800;    
+}
+
+
+
+.discover-in {
+    background-color: rgb(245, 245, 245);    
+    padding: 1em;     
+    position: relative;    
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+
+
+.discover{
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    grid-template-rows: -0.5fr 1fr 1fr ;
+    
+}
+
+.discover h2 {
+    grid-column: 1;
+    grid-row: 3;    
+    font-size: 50px;
+    z-index: 3;    
+}
+
+.come {
+    margin-top: 0.55em;
+}
+
+.triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 15px solid rgb(245, 245, 245);
+    border-right : 20px solid transparent;
+    border-left : 20px solid transparent;
+    grid-row: 2;
+    grid-column: 1/4;
+    justify-self: start;
+    
+
+}
+
+.robot-img-cadre {
+    padding: 0.5em;
+    background-color: rgb(226, 226, 226);
+    grid-column: 1;
+    width: fit-content;
+    margin-top: 1em;    
+}
+
+.robot-text{
+    height: 10em;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    grid-row: 3;
+    grid-column: 1/3;
+    margin-top: 4em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.robot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 6em;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+.robot img{
+    display: block;   
+    max-width: 100%;
+    height: auto;
+}
+
+.certification {
+    
+    background-color:rgb(245, 245, 245);    
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em;    
+}
+
+.certif-text {
+    transform: translateY(0.8em);
+    font-size: 50px;
+    text-align: end;
+}
+
+
+.card-certif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;    
+    padding: 0.5em;
+}
+
+.card-certif img {
+    max-width: 60%;
+    display: block;
+    height: auto;
+    transition: ease-in-out 0.2s;
+}
+
+.card-certif img:hover {
+    transform: scale(1.1);
+}
+
+.button-text-certif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-text-certif button{
+    align-self: flex-end;
+}
+
+.blabla {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10em;
+    flex-wrap: wrap;
+    
+}
+
+.blabla img {
+    display: block;   
+    max-width: 100%;
+    height: auto;
+}
+
+.blabla b {
+    font-size: 30px;
+}
+
+.blabla .robot-img-cadre {
+    margin-top: 0;
+}
+
+
+
+
+/* HOME */
+
+
+
+
+
+
+
+/* APPARITION */ 
+
+[class*="appa"] {
+    transform: scale(0);
+}
+
+.move{
+    animation-duration: 1s;
+    animation-name: bouge;
+    transform: scale(1);
+}
+
+
+
+.moveB{
+    animation-duration: 1s;
+    animation-name: bouge;
+    animation-direction: reverse;
+}
+
+@keyframes bouge {
+    0% {
+        transform: scale(0);
+    }
+    75%{
+        transform: scale(1.1) ;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* APPARITION */
