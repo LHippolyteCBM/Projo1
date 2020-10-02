@@ -40,6 +40,23 @@
                 <p>What?! All right. Well, take care of yourself, Han. I guess that's what you're best at, ain't it? No! Alderaan is peaceful. We have no weapons. You can't possibly… All right. Well, take care of yourself, Han. I guess that's what you're best at, ain't it?</p>
             </div>
         </div>
+        <div class="global-container-things">
+            <div class="container-things">
+                <img src="img/sport.jpg" alt="Image of tennis ball">
+                <h3>Urban sport</h3>
+                <p>What?! All right. Well, take care of yourself, Han. I guess that's what you're best at, ain't it? No! Alderaan is peaceful. We have no weapons. You can't possibly… All right. Well, take care of yourself, Han. I guess that's what you're best at, ain't it?</p>
+            </div>
+            <div class="container-things">
+                <img src="img/robot-games.jpg" alt="Futurist bowling photo" srcset="">
+                <h3>Robots games</h3>
+                <p>What?! All right. Well, take care of yourself, Han. I guess that's what you're best at, ain't it? No! Alderaan is peaceful. We have no weapons. You can't possibly… All right. Well, take care of yourself, Han. I guess that's what you're best at, ain't it?</p>
+            </div>
+            <div class="container-things">
+                <img src="img/museum.jpg" alt="Picture of a museum" srcset="">
+                <h3>Human museum</h3>
+                <p>What?! All right. Well, take care of yourself, Han. I guess that's what you're best at, ain't it? No! Alderaan is peaceful. We have no weapons. You can't possibly… All right. Well, take care of yourself, Han. I guess that's what you're best at, ain't it?</p>
+            </div>
+        </div>
     </main>
 
 
