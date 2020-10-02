@@ -1,10 +1,10 @@
 <footer class="footer">
-    <div>
+    <div class ="firsttextfooter">
         Our favorites networks
     </div>
     <div>
-    <ul>
-        <li><a href="https://fr-fr.facebook.com/WildCodeSchool/"target ="_blank"><img class="imgfb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/600px-Facebook_logo_36x36.svg.png"></a></li>
+    <ul class="lifooter">
+        <li><a href="https://fr-fr.facebook.com/WildCodeSchool/"target ="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/600px-Facebook_logo_36x36.svg.png"></a></li>
         <li><a href="https://www.youtube.com/channel/UCi99G_0QPx5sYsK8zdvQzfw" target ="_blank"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTYfKnLDqsenV6fQXqW2oMsSpEXFyNbGNjHEw&usqp=CAU"></a></li>
         <li><a href="https://twitter.com/wildcodeschool" target ="_blank"><img src ="https://ressources.blogdumoderateur.com/2019/11/twitter-logo-1200x1200.jpg"></a></li>
         <li><a href="https://www.instagram.com/wildcodeschoolofficial/?hl=fr" target ="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/langfr-220px-Instagram_logo_2016.svg.png"></a></li>
