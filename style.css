@@ -2,7 +2,15 @@
     --background: white;
     --textColor: black;
     --police: roboto;
-}
+    --backgroundHight: grey;
+    --backgroundMedium: blue;
+    --backgroundLow: green;
+    --heightBannerDesktop: 30em;
+    --heightBannerMobile: 15em;
+    --bannerH1SizeDesktop: 4em;
+    --bannerH1SizeMobile: 3em;
+    --bannerH2SizeMobile: 2em;
+    --bannerH2SizeMobile: 1.5em;}
 
 * {
     margin: 0;
@@ -543,5 +551,30 @@ button:focus {
     color: white;
     
 }
-
+.main-traveller{
+    display: flex;
+    
+    
+}
+.traveller-card-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*.fake-card {
+    width: 20%;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.3s;
+  }*/
+  
+  .card-header {
+    text-align: center;
+    padding: 50px 10px;
+  }
+  .card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
 /* Fin de CSS Traveller */

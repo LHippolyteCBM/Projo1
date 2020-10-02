@@ -17,10 +17,18 @@
     </header>
     
 
-    <main>
-        <div class="global-card-container">
-            
-        </div>
+    <main class="main-traveller">
+        
+                <div class="card-header">
+                    <h1>React</h1>
+                </div>
+                <div class="card-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                    </p>
+                    <a href="#" class="btn">Read more</a>
+                 </div>
+        
     </main>
 
 
