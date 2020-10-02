@@ -374,6 +374,7 @@ code couleur pour le vert fluo : #73f340
     display: flex;
     justify-content: space-around;
     width: 95%;
+    height: 100%;
 
 }
 
@@ -424,11 +425,6 @@ code couleur pour le vert fluo : #73f340
     main {
        margin: -70px 5% 0 5%;
         
-    }
-
-    /* J'enlève le footer pour la version mobile, comme prévu au début */
-    footer {
-        display: none;
     }
 
 }
