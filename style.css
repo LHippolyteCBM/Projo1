@@ -447,12 +447,82 @@ button:focus {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HOME */ 
 
 
 .banniere-home {
     
-    background-image: url("img/earth.jpg");
+    background-image: url("https://picsum.photos/1800/800");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -557,7 +627,7 @@ main{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 1em;    
+    padding: 5em;    
   
 }
 
@@ -565,6 +635,7 @@ main{
     transform: translateY(0.8em);
     font-size: 50px;
     text-align: end;
+    margin-right: 0.2em;
 }
 
 
@@ -578,17 +649,15 @@ main{
 }
 
 .card-certif img {
-    max-width: 60%;
+    max-width: 40%;
     display: block;
     height: auto;
-    
-
 }
 
 .rond-certif{
     background-color: rgb(226, 226, 226);
     border-radius: 100px;
-    height: 8em;
+    height: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -604,6 +673,7 @@ main{
 
 .rond-certif:hover {
     transform: scale(1.1);
+    background-color: rgb(200, 200, 200);
 }
 
 .button-text-certif{
@@ -614,34 +684,106 @@ main{
 }
 
 .button-text-certif button{
-    align-self: flex-end;
+    align-self: center;
 }
 
-.blabla {
+.paysage {
     display: flex;    
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 10em;
+    justify-content: space-between;    
     flex-wrap: wrap;
+    margin: 3em 10% 0 10% ;
+    background-color: white;
+    z-index: 800;   
     
 }
 
-.blabla img {
+.paysage img {
     display: block;   
     max-width: 100%;
     height: auto;
 }
 
-.blabla b {
-    font-size: 30px;
+.paysage b {
+    font-size: 30px;   
 }
 
-.blabla .robot-img-cadre {
+.paysage p {
+    margin-bottom: 1em;    
+}
+
+
+.paysage .robot-img-cadre {
     margin-top: 0;
 }
 
 
+.meteo {     
+    flex-direction: row;
+    justify-content: space-around;    
+    flex-wrap: wrap;
+    margin: 3em 10% 10em 10% ;
+    background-color: white;
+    z-index: 800;   
+}
 
+.meteo-card p {
+    font-size: 20px;
+}
+
+.meteo-card-wrapper {
+    margin-bottom: -8em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5em;
+}
+
+.meteo-card {
+    background-color: rgb(226, 226, 226);
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.meteo-hour {
+    background-color: rgb(245, 245, 245);
+    padding: 0.5em;
+    text-align: center;
+    margin-top: 0.2em;
+}
+
+
+.meteo-border {
+    height: 10em;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+}
+
+.meteo-border h2 {
+    font-size: 50px;
+    text-align: end;
+    transform: translateY(2.5em);
+    margin-right: 0.2em;
+}
+
+.meteo-card img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    animation: shake 0.2s ;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes shake {
+    0% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(2deg);
+    }
+}
 
 /* HOME */
 

@@ -18,6 +18,7 @@
 
 
     <main>
+
         <div class="discover">
             <div class="discover-in">
                 <h2>.Discovering our planet</h2>
@@ -25,6 +26,9 @@
             </div>
             <div class="triangle">
             </div>
+
+
+
             <h2 class="come">.Come!</h2>
             <div class="robot-text">
                 and meet our local resident !
@@ -41,97 +45,137 @@
                 </div>
             </div>
         </div>
-        <h2 class="certif-text">.Certification</h2>
-
-        <div class="certification">
-
-            <div class="card-certif appa">
-                <div class="rond-certif">
-                    <img src="icone/rsz_nuclear.png">
-                </div>
-                <div class="button-text-certif">
-                    <p>Nuclear friendly</p>
-                    <button class="popBtn">Read More</button>
-                </div>
-            </div>
-
-            <div class="popDiv">
-                <div class="triangle-pop"></div>
-                <div class="text-inside-pp">
-                    1
-                </div>
-            </div>
 
 
-            <div class="card-certif appa">
-                <div class="rond-certif">
-                    <img src="icone/rsz_nuclear.png">
-                </div>
-                <div class="button-text-certif">
-                    <p>Nuclear friendly</p>
-                    <button class="popBtn">Read More</button>
-                </div>
-            </div>
-
-            <div class="popDiv">
-                <div class="triangle-pop"></div>
-                <div class="text-inside-pp">
-                    2
-                </div>
-            </div>
-
-            <div class="card-certif appa">
-                <div class="rond-certif">
-                    <img src="icone/rsz_nuclear.png">
-                </div>
-                <div class="button-text-certif">
-                    <p>Nuclear friendly</p>
-                    <button class="popBtn">Read More</button>
-                </div>
-            </div>
-
-            <div class="popDiv">
-                <div class="triangle-pop"></div>
-                <div class="text-inside-pp">
-                    3
-                </div>
-            </div>
-
-
-            <div class="card-certif appa">
-                <div class="rond-certif">
-                    <img src="icone/rsz_nuclear.png">
-                </div>
-                <div class="button-text-certif">
-                    <p>Nuclear friendly</p>
-                    <button class="popBtn">Read More</button>
-                </div>
-            </div>
-
-            <div class="popDiv">
-                <div class="triangle-pop"></div>
-                <div class="text-inside-pp">
-                    4
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="blabla">
-            <p><b>Lorem ipsum, dolor sit ametde minima?</b></br>
-                Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit.</br>
-                * Ea, nulla! Blanditiis molestias mollitia doloribus natus</br>
-                veniam et commodi, nesciunt</br>
-                tempore quibusdam nostrum placeat ipsum </br>
-                laborum hic libero. Asperiores, libero corporis.</p>
-            <div class="robot-img-cadre appa">
-                <img class="robot-img" src="https://picsum.photos/400/300" alt="" />
-            </div>
-        </div>
 
     </main>
+    <h2 class="certif-text">.Certification</h2>
+
+    <div class="certification">
+
+        <div class="card-certif appa">
+            <div class="rond-certif">
+                <img src="icone/rsz_nuclear.png">
+            </div>
+            <div class="button-text-certif">
+                <p>Nuclear friendly</p>
+                <button class="popBtn">Read More</button>
+            </div>
+        </div>
+
+        <div class="popDiv">
+            <div class="triangle-pop"></div>
+            <div class="text-inside-pp">
+                1
+            </div>
+        </div>
+
+
+        <div class="card-certif appa">
+            <div class="rond-certif">
+                <img src="icone/rsz_nuclear.png">
+            </div>
+            <div class="button-text-certif">
+                <p>Nuclear friendly</p>
+                <button class="popBtn">Read More</button>
+            </div>
+        </div>
+
+        <div class="popDiv">
+            <div class="triangle-pop"></div>
+            <div class="text-inside-pp">
+                2
+            </div>
+        </div>
+
+        <div class="card-certif appa">
+            <div class="rond-certif">
+                <img src="icone/rsz_nuclear.png">
+            </div>
+            <div class="button-text-certif">
+                <p>Nuclear friendly</p>
+                <button class="popBtn">Read More</button>
+            </div>
+        </div>
+
+        <div class="popDiv">
+            <div class="triangle-pop"></div>
+            <div class="text-inside-pp">
+                3
+            </div>
+        </div>
+
+
+        <div class="card-certif appa">
+            <div class="rond-certif">
+                <img src="icone/rsz_nuclear.png">
+            </div>
+            <div class="button-text-certif">
+                <p>Nuclear friendly</p>
+                <button class="popBtn">Read More</button>
+            </div>
+        </div>
+
+        <div class="popDiv">
+            <div class="triangle-pop"></div>
+            <div class="text-inside-pp">
+                4
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="paysage">
+        <p><b>Amazing Landscape</b></br>
+            Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit.</br>
+            * Ea, nulla! Blanditiis molestias mollitia doloribus natus</br>
+            veniam et commodi, nesciunt</br>
+            tempore quibusdam nostrum placeat ipsum </br>
+            laborum hic libero. Asperiores, libero corporis.</p>
+        <div class="robot-img-cadre appa">
+            <img class="robot-img" src="https://picsum.photos/800/300" alt="" />
+        </div>
+    </div>
+
+    <div class="meteo">
+
+        <div class="meteo-card-wrapper">
+
+            <div class="meteo-card appa">                
+                <img class="meteo-img" src="https://picsum.photos/130/130" alt="">
+                <p class="city-name">Paris</p>
+                <div class="meteo-temp"></div>
+                <div class="meteo-hour"></div>    
+            </div>    
+
+            <div class="meteo-card appa">                
+                <img class="meteo-img" src="https://picsum.photos/130/130" alt="">
+                <p class="city-name">Tokyo</p>
+                <div class="meteo-temp"></div>
+                <div class="meteo-hour"></div>    
+            </div>   
+
+            <div class="meteo-card appa">                
+                <img class="meteo-img" src="https://picsum.photos/130/130" alt="">
+                <p class="city-name">London</p>
+                <div class="meteo-temp"></div>
+                <div class="meteo-hour"></div>    
+            </div>   
+
+            <div class="meteo-card appa">                
+                <img class="meteo-img" src="https://picsum.photos/130/130" alt="">
+                <p class="city-name">New York</p>
+                <div class="meteo-temp"></div>
+                <div class="meteo-hour"></div>    
+            </div>   
+
+        </div>
+
+        <div class="meteo-border"><h2>.Earth Meteo</h2></div>
+        
+    </div>
 
 
     <?php include 'burger.php'; ?>
@@ -142,6 +186,7 @@
     <script src="apparition.js"></script>
     <script src="card.js"></script>
     <script src="popBtn.js"></script>
+    <script src="meteo.js"></script>
 </body>
 
 </html>
