@@ -282,12 +282,10 @@ button:focus {
     .burger {
         display: flex;
     }
-    nav ul {
+    nav {
         display: none;
     }
-    .back-move{
-        display: none;
-    }
+ 
 }
 
 
@@ -929,6 +927,7 @@ nav li {
     position: fixed;
     top: 0;
     left: 0;  
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
 }
 
 
