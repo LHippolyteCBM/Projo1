@@ -16,36 +16,36 @@
     </header>
     
 
-    <main class="main-traveller">
-    
-    <h2 class="traveller-h2">How to come to Earth ?</h2>
-    <div class="traveller-card-container">
-        <div class="card">
-            <div class="traveller-card-header">
-                <h3>By Shutle</h3>
+    <main>
+        <div class="intro-traveller">
+            <h2>How to come to Earth ?</h2>
+            <p>Lorem ipsum dolor sit amet con</p>
+            <p>Lorem ipsum dolor j'ai faim</p>
+        </div>
+        <div class="global-container-traveller">
+            <div class="container-traveller">
+                <img src="img/food-todo.jpg" alt="Diner picture">
+                <h3>Long Range Transport Shuttle</h3>
+                <p>To come to Earth you need to take an LRTS, which can transport you from planet to planet until you arrive at Earth docking Space Terminal. </p>
             </div>
-            <div class="traveller-card-body">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            </div>
-            <div class="traveller-shuttle-image">
+            <div class="container-traveller">
+                <img src="img/nuclear-plant-todo.jpg" alt="Nuclear plant photo" srcset="">
+                <h3>Orbital Elevator</h3>
+                <p>Once arrived in Earth Space Terminal you need to proceed to the Earth surface, you will need to take one of two transports systems available to you.One of them is the O.E, a giant elevator that go from the Earth surface to Earth's Space Terminal 70Km above the surface!It's the "Budget" way to go down but the queue to use it is long, and you go down along with freight containers and other people.</p>
             </div>
         </div>
-        
-        <div class="card">
-            <div class="traveller-card-header">
-                <h3>By Orbital Elevator</h3>
+        <div class="global-container-traveller">
+            <div class="container-traveller">
+                <img src="img/sport.jpg" alt="Image of tennis ball">
+                <h3>Planetary Shuttle and Nuuber</h3>
+                <p>The second way to go down to surface is a Premium Planetary Shuttle of the Nuuber compagny, it's faster, less crowded than the elevator and more comfortable! the Nuuber company also provides private drivers and atmospheric vehicules to it's client!</p>
             </div>
-            <div class="traveller-card-body">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
+            <div class="container-traveller">
+                <img src="img/robot-games.jpg" alt="Futurist bowling photo" srcset="">
+                <h3>Ground Transports</h3>
+                <p>To go around the surface while keeping your budget in check, feel free to use the Webway Monorail system, as well as the Atmospheric Public Transport System (A.P.T.S).</p>
             </div>
         </div>
-    </div>
-    
-        
     </main>
 
     <?php include 'burger.php'; ?>
