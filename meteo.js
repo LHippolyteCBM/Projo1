@@ -35,13 +35,13 @@ for (let index = 0; index < Object.keys(card).length; index++) {
         if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
             let response = JSON.parse(this.responseText);
             let weather = response.weather[0].icon;            
-            let temperatureCelsius = Math.floor(response.main.temp - 273.15) ;
+            let temperatureCelsius = Math.floor(response.main.temp - 273.15) ;           
             let decalageHoraire = (response.timezone / 60) / 60,
                 date = new Date();
             let hours = (date.getUTCHours() + decalageHoraire);
                 minutes = date.getMinutes(),
                 seconds = date.getSeconds();
-
+                
             if (hours > 24) {
                 hours -= 24
             }
@@ -50,6 +50,7 @@ for (let index = 0; index < Object.keys(card).length; index++) {
 
             card[index].temp = temperatureCelsius;
             card[index].heure = time;
+            card[index].image = `http://openweathermap.org/img/wn/${weather}.png`;
 
             meteoCard.forEach((x, index) => {
                 x.childNodes.forEach(y => {
@@ -58,12 +59,11 @@ for (let index = 0; index < Object.keys(card).length; index++) {
                     } else if (y.className === 'meteo-hour') {
                         y.innerText = card[index].heure
                     } else if (y.className === 'meteo-img') {
-                        y.src = `http://openweathermap.org/img/wn/${weather}.png`;
+                        y.src = card[index].image;
                         console.log(weather)
                     }
                 })
-            })
-            
+            })           
 
         }
 
