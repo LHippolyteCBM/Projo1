@@ -62,33 +62,6 @@
 
 
 
-/* TRY SQUELETTE */ 
-
-
-nav {
-    position: fixed;
-    top: 0;
-    z-index: 10000;
-    width: 100%;
-}
-
-
-nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    border-bottom: solid black 1px;
-    background-color: white;
-}
-
-nav li {
-    padding: 2em;
-    
-}
-
-
-
-/* TRY SQUELETTE */ 
 
 
 
@@ -131,6 +104,13 @@ nav li {
   a:hover {
     background-size: 4px 50px;
   } */
+
+
+
+
+
+
+
 
 
 
@@ -303,6 +283,9 @@ button:focus {
         display: flex;
     }
     nav ul {
+        display: none;
+    }
+    .back-move{
         display: none;
     }
 }
@@ -902,3 +885,51 @@ main{
 
 
 /* POP DIV */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAV TESST */
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    width: 100%;    
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;  
+    z-index: 10001;      
+}
+
+nav li {
+    padding: 2em;
+    z-index: 10002;    
+    border-radius: 15px;
+    
+}
+
+.back-move {
+    background-color:white;
+    opacity: var(--plop);
+    position: fixed;
+    top: 0;
+    left: 0;  
+}
+
+
+/* NAV TESST */ 

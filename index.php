@@ -187,6 +187,7 @@
     <script src="card.js"></script>
     <script src="popBtn.js"></script>
     <script src="meteo.js"></script>
+    <script src="nav.js"></script>
 </body>
 
 </html>

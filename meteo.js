@@ -59,8 +59,7 @@ for (let index = 0; index < Object.keys(card).length; index++) {
                     } else if (y.className === 'meteo-hour') {
                         y.innerText = card[index].heure
                     } else if (y.className === 'meteo-img') {
-                        y.src = card[index].image;
-                        console.log(weather)
+                        y.src = card[index].image;                       
                     }
                 })
             })           

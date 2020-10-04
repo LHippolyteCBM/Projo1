@@ -6,4 +6,5 @@
         <li>Traveller information</li>
         <li>Book a trip</li>
     </ul>
+    <div class="back-move"></div>
 </nav>
