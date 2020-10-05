@@ -41,9 +41,11 @@ for (let index = 0; index < Object.keys(card).length; index++) {
             let hours = (date.getUTCHours() + decalageHoraire);
                 minutes = date.getMinutes(),
                 seconds = date.getSeconds();
-                
+           
             if (hours > 24) {
                 hours -= 24
+            } else if (hours < 0 ){
+                hours = 24 + hours;
             }
 
             time = underTen(hours) + ' : ' + underTen(minutes) + ' : ' + underTen(seconds);
