@@ -488,9 +488,9 @@ code couleur pour le vert fluo : #73f340
 /* CSS Traveller */
 
 
-.banniere-traveller {
+.banner-traveller {
     height: 30em;
-    background-image: url("img/travellerBannner.jpg");
+    background-image: url("img/space-elevator-daily-galaxy.jpg");
     background-size: cover;
     background-attachment: fixed;
     z-index: 1;
@@ -522,7 +522,6 @@ code couleur pour le vert fluo : #73f340
 
 .container-traveller {
     width: 30%;
-    /*margin: 2%;*/
     padding: 1%;
     margin: 2%;
     background-color: var(--backgroundMedium);
@@ -538,17 +537,15 @@ code couleur pour le vert fluo : #73f340
 }
 
 
-
-/*MOBILE */
 @media screen and (max-width:768px){
 
-    /*.banner-things {
+    .banner-traveller {
         height: var(--heightBannerMobile);
     }
-
-    .banner-things h1 {
+    
+    .title-traveller {
         font-size: var(--bannerH1SizeMobile);
-    }*/
+    }
 
     .intro-traveller h2 {
         font-size: var(--bannerH2SizeMobile);
