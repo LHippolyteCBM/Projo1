@@ -334,19 +334,10 @@ button:focus {
 /* FOOTER */
 
 
+/* CSS PAGES CONTENUS*/
 
-/* CSS THINGS TO DO */
-/* ATTENTION pour la mise en page, j'ai modifié la balise main : 
-je l'ai mise en flex, avec flex direction column et align items center. 
-peut être que le main, la margin suivante est mieux : margin: -70px 5% 0 5%;
-Background color : #F8FAFE. 
-code couleur pour le vert fluo : #73f340    
-*/
-
-/* DESKTOP */
-.banner-things {
+.banner-content {
     background-size: cover;
-    background-image: url(img/banner-things-to-do.jpg);
     height: var(--heightBannerDesktop);
     background-position: center;
     display: flex;
@@ -354,24 +345,25 @@ code couleur pour le vert fluo : #73f340
     align-items: center;
 }
 
-.banner-things h1 {
+.banner-content h1 {
     color: white;
     font-size: var(--bannerH1SizeDesktop);
     background-color:rgba(115, 243, 64, 0.4);
     text-align: center;
 }
 
-.intro-things {
+.intro-content {
     width: 95%;
     margin: 3%;
 }
 
-.intro-things h2 {
+.intro-content h2 {
     margin-bottom: 3%;
     text-decoration: underline var(--backgroundHight);
     font-size: var(--bannerH2SizeDesktop);
 }
-.global-container-things {
+
+.global-container-content {
     display: flex;
     justify-content: space-around;
     width: 95%;
@@ -379,46 +371,44 @@ code couleur pour le vert fluo : #73f340
 
 }
 
-.container-things {
+.container-content {
     width: 30%;
-    /*margin: 2%;*/
     padding: 1%;
     margin: 2%;
     background-color: var(--backgroundMedium);
     box-shadow: 2px 4px 10px #CCD7F3;
 }
 
-.container-things img {
+.container-content img {
     max-width: 100%;
 }
 
-.container-things p, .container-things h3 {
+.container-content p, .container-content h3 {
     margin: 3%;
 }
 
-
-
 /*MOBILE */
+
 @media screen and (max-width:768px){
 
-    .banner-things {
+    .banner-content {
         height: var(--heightBannerMobile);
     }
-
-    .banner-things h1 {
+    
+    .banner-content h1 {
         font-size: var(--bannerH1SizeMobile);
     }
 
-    .intro-things h2 {
+    .intro-content h2 {
         font-size: var(--bannerH2SizeMobile);
     }
 
-    .global-container-things{
+    .global-container-content{
         flex-direction: column;
         align-items: center;
     }
 
-    .container-things{
+    .container-content{
         width: 95%;
         margin: 3%;
     }
@@ -427,146 +417,19 @@ code couleur pour le vert fluo : #73f340
        margin: -70px 5% 0 5%;
         
     }
-
 }
-/* FIN CSS THINGS TO DO  */
-/* FOOTER */
-/*  BURGER CSS */
 
 
+/* CSS THINGS TO DO */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.banner-img-things {
+    background-image: url(img/banner-things-to-do.jpg);
+}
 
 
 /* CSS Traveller */
 
 
-.banner-traveller {
-    height: 30em;
+.banner-img-traveller {
     background-image: url("img/space-elevator-daily-galaxy.jpg");
-    background-size: cover;
-    height: var(--heightBannerDesktop);
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.title-traveller{
-    color: white;
-    
-}
-.intro-traveller {
-    width: 95%;
-    margin: 3%;
-}
-
-.intro-traveller h2 {
-    margin-bottom: 3%;
-    text-decoration: underline var(--backgroundHight);
-    font-size: var(--bannerH2SizeDesktop);
-}
-.global-container-traveller {
-    display: flex;
-    justify-content: space-around;
-    width: 95%;
-    height: 100%;
-
-}
-
-.container-traveller {
-    width: 30%;
-    padding: 1%;
-    margin: 2%;
-    background-color: var(--backgroundMedium);
-    box-shadow: 2px 4px 10px #CCD7F3;
-}
-
-.container-traveller img {
-    max-width: 100%;
-}
-
-.container-traveller p, .container-traveller h3 {
-    margin: 3%;
-}
-
-
-@media screen and (max-width:768px){
-
-    .banner-traveller {
-        height: var(--heightBannerMobile);
-    }
-    
-    .title-traveller {
-        font-size: var(--bannerH1SizeMobile);
-    }
-
-    .intro-traveller h2 {
-        font-size: var(--bannerH2SizeMobile);
-    }
-
-    .global-container-traveller{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .container-traveller{
-        width: 95%;
-        margin: 3%;
-    }
-    
-    main {
-       margin: -70px 5% 0 5%;
-        
-    }
-
-}
-
-/* Fin de CSS Traveller */
