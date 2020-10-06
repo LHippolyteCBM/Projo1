@@ -2,11 +2,24 @@
     --background: white;
     --textColor: black;
     --police: roboto;
+    --backgroundHight: #73f340;
+    --backgroundMedium: #E0E8FC;
+    --backgroundLow: lightgray;
+    --heightBannerDesktop: 30em;
+    --heightBannerMobile: 15em;
+    --bannerH1SizeDesktop: 4em;
+    --bannerH1SizeMobile: 3em;
+    --bannerH2SizeDesktop: 2em;
+    --bannerH2SizeMobile: 1.5em;
+
 }
+
+
 * {
     margin: 0;
     padding: 0;
 }
+
 
 /* TRY SQUELETTE */ 
 
@@ -35,14 +48,17 @@ li {
     z-index: 1;
 
 }
+
 main{
     margin: -70px 10% 0 10% ;
-    background-color: red;
+    background-color: var(--backgroundLow);
     z-index: 800;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* TRY SQUELETTE */ 
-
 
 /* NAV */ 
 
@@ -314,5 +330,103 @@ button:focus {
 .footer{
     text-align: center;
 }
-
 /* FOOTER */
+
+
+
+/* CSS THINGS TO DO */
+/* ATTENTION pour la mise en page, j'ai modifié la balise main : 
+je l'ai mise en flex, avec flex direction column et align items center. 
+peut être que le main, la margin suivante est mieux : margin: -70px 5% 0 5%;
+Background color : #F8FAFE. 
+code couleur pour le vert fluo : #73f340    
+*/
+
+/* DESKTOP */
+.banner-things {
+    background-size: cover;
+    background-image: url(img/banner-things-to-do.jpg);
+    height: var(--heightBannerDesktop);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-things h1 {
+    color: white;
+    font-size: var(--bannerH1SizeDesktop);
+    background-color:rgba(115, 243, 64, 0.4);
+    text-align: center;
+}
+
+.intro-things {
+    width: 95%;
+    margin: 3%;
+}
+
+.intro-things h2 {
+    margin-bottom: 3%;
+    text-decoration: underline var(--backgroundHight);
+    font-size: var(--bannerH2SizeDesktop);
+}
+.global-container-things {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 100%;
+
+}
+
+.container-things {
+    width: 30%;
+    /*margin: 2%;*/
+    padding: 1%;
+    margin: 2%;
+    background-color: var(--backgroundMedium);
+    box-shadow: 2px 4px 10px #CCD7F3;
+}
+
+.container-things img {
+    max-width: 100%;
+}
+
+.container-things p, .container-things h3 {
+    margin: 3%;
+}
+
+
+
+/*MOBILE */
+@media screen and (max-width:768px){
+
+    .banner-things {
+        height: var(--heightBannerMobile);
+    }
+
+    .banner-things h1 {
+        font-size: var(--bannerH1SizeMobile);
+    }
+
+    .intro-things h2 {
+        font-size: var(--bannerH2SizeMobile);
+    }
+
+    .global-container-things{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-things{
+        width: 95%;
+        margin: 3%;
+    }
+    
+    main {
+       margin: -70px 5% 0 5%;
+        
+    }
+
+}
+/* FIN CSS THINGS TO DO  */
+
