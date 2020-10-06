@@ -67,9 +67,8 @@
 .nav-container {
     display: flex;
     justify-content: space-evenly;
-    position: absolute;
-    color: white;
     letter-spacing: 2px;
+    list-style: none;
 }
 
 .nav-container .nav-items  {
@@ -96,9 +95,7 @@
     background-color: rgb(225 255 241 / 17%);
   }
 
-.focusOnclick {
-    content: "";
-    position: absolute;
+  .active a{
     background-color: rgb(225 255 241 / 17%);
 }
   .nav-container .nav-items:hover::before {
