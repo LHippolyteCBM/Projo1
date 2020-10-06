@@ -10,9 +10,10 @@
 
 <body>
     <header>
-        <?php include "header.php" ?>
-        <div class="banniere-home">
-            <h1>Welcome on Earth</h1>
+        
+        <div class="banniere-home">   
+        
+        <div class="menu"><?php include "header.php" ?></div>  
         </div>
     </header>
 
@@ -187,7 +188,7 @@
     <script src="card.js"></script>
     <script src="popBtn.js"></script>
     <script src="meteo.js"></script>
-    <script src="nav.js"></script>
+    
 </body>
 
 </html>
