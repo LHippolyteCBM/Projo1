@@ -2,11 +2,15 @@
     --background: white;
     --textColor: black;
     --police: roboto;
-}
-
-* {
-    margin: 0;
-    padding: 0;
+    --backgroundHight: #73f340;
+    --backgroundMedium: #E0E8FC;
+    --backgroundLow: lightgray;
+    --heightBannerDesktop: 30em;
+    --heightBannerMobile: 15em;
+    --bannerH1SizeDesktop: 4em;
+    --bannerH1SizeMobile: 3em;
+    --bannerH2SizeDesktop: 2em;
+    --bannerH2SizeMobile: 1.5em;
 }
 
 
@@ -478,33 +482,120 @@ button:focus {
 
 /* BOOKING JW */
 .container-all{
-    background-color: lightgray;
+    background-color: var(--backgroundMedium);
+    flex-direction: column;
+    display: flex;
+    width: 60%;
+    margin:auto;
+    
 
 }
-.booking-h1{
+.container-all h2{
     text-align: center;
+    width: 100%; 
+    height: 20%;
+    
 }
 
-.container-form{
+.container-form-1{
     display: flex;
     justify-content: space-evenly;
-
+    max-width: 100%;
+    
 }
 
-.block-left-form{
+.block-left-form-1{
     flex-direction: column;
+    max-width: 100%;
 }
 
-.block-right-form{
+.block-right-form-1{
     flex-direction: column;
+    max-width: 100%;
+}
+.container-form-2{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
 }
 
+.block-left-form-2{
+    flex-direction: column;
+    max-width: 100%;
+}
+.civility{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%; 
+    height: 20%;
+    margin-top: 10%;
+}
+
+.block-right-form-2{
+    flex-direction: column;
+    max-width: 100%;
+}
+.case{
+
+    width: 100%; 
+    height: 20%;
+}
+.container-form-3{
+    max-width: 100%;
+    width: 100%;
+      
+}
+.comment{
+    width: 400px; 
+    height: 80px;
+    max-width: 100%;
+}
 .block-cont-form{
     display: flex;
     justify-content: center;
 }
 
-.send-input-container{
+.checkbox-container {
+    margin-top: 1em;
+}
+.checkbox{
+    display: flex;
+    margin-left: 1.4em;
+}
+
+
+.send{
+    width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: var(--textColor);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:20pt;
+
+}
+@media screen and (max-width:768px){
+    .container { 
+  column-count: 3; 
+}
+    .container-form-1{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .container-form-2{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+
 }
