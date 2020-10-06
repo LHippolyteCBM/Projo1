@@ -2,6 +2,11 @@ let navig = document.querySelector('nav');
 let backMove = document.querySelector('.back-move');
 let dirNav = '';
 let dirStat = 0;
+let parsedUrl = new URL(window.location.href),
+    pathName = parsedUrl.pathname;
+
+console.log(pathName);
+console.log(parsedUrl)
 
 
 backMove.style.width = navig.offsetWidth + 'px';
@@ -20,3 +25,5 @@ function menuTrans() {
     }
 
 }
+
+window.addEventListener('resize',menuTrans)
