@@ -19,8 +19,7 @@
     <main>
         <div class="intro-content">
             <h2>How to come to Earth ?</h2>
-            <p>Lorem ipsum dolor sit amet con</p>
-            <p>Lorem ipsum dolor j'ai faim</p>
+            <p>On this page you can find all informations you need in regards to every transports system available to come and go around on Earth.From low budget to premium transport services you will find what you need on this page.</p>
         </div>
         <div class="global-container-content">
             <div class="container-content">
