@@ -11,9 +11,6 @@
 <body>
     <header>
         <?php include "header.php" ?>
-        <div class="banniere">
-            <h1 class="title-banner">Welcome!</h1>
-        </div>
     </header>
     
     <main class="main-page-container">
