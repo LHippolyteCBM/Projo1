@@ -12,6 +12,7 @@
     --bannerH2SizeMobile: 2em;
     --bannerH2SizeMobile: 1.5em;
 }
+}
 
 * {
     margin: 0;
@@ -64,13 +65,20 @@
 
 /* NAV BAR */ 
 
+/*.nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 3em;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}*/
 
 .nav-container {
     display: flex;
-    justify-content: space-evenly;    
-    color: white;
+    justify-content: space-evenly;
     letter-spacing: 2px;
-   
+    list-style: none;
 }
 
 .nav-container .nav-items  {
@@ -97,17 +105,31 @@
     background-color: rgb(225 255 241 / 17%);
   }
 
-.focusOnclick {
-    content: "";
-    position: absolute;
+  .active a{
     background-color: rgb(225 255 241 / 17%);
 }
   .nav-container .nav-items:hover::before {
     bottom: 56px;
     left: 0;
     background-color: rgb(225 255 241 / 17%);
-}
+  }
  
+
+.banniere {
+    height: 30em;
+    background-image: url("/img/alexander-andrews-eNoeWZkO7Zc-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
 
 main{
     margin: 50px 10% 0 10% ;
@@ -139,10 +161,205 @@ main{
 
 
 
+/* IMAGE-SLIDER */
+
+div.home-image-slider {
+    overflow: hidden;
+    height: 30em;
+    } 
+
+div.home-image-slider figure {
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}
+div.home-image-slider figure img {
+    width: 20%;
+    height: auto;
+    float: left; 
+}
+
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+div.home-image-slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+  }
+      
 
 
 
-/* NAV */ 
+/* CARD */ 
+
+
+.global-card-container {
+    display: flex;
+    justify-content: space-around;
+    height: 40em;
+    margin-bottom: 50em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    height: 30em;
+    width: 20em;
+    /*border-radius: 15px;*/
+    position: relative;
+    transition: .2s;
+            -webkit-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+            -moz-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+            box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+}
+
+.card-container:hover {
+   transform: scale(1.05);
+            -webkit-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
+            -moz-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
+            box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
+}
+
+.card-header {
+    background-color: lightgrey;
+    height: 18em;
+    width: 20em;
+    /*border-top-left-radius: 15px;
+    border-top-right-radius: 15px;*/
+    position: absolute;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.card-button {
+    padding: 15px 30px 15px 30px;
+    margin-top: 25em;
+    /*border-radius: 10px;*/
+    background-color: lightgray;
+    position: absolute;
+    transition: .2s;
+        -webkit-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+        -moz-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+        box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+    cursor: pointer;
+}
+
+.card-container-expanded {
+    padding-bottom: 16em;
+}
+
+.card-button-expanded {
+    padding: 15px 30px 15px 30px;
+    margin-top: 42em;
+    border-radius: 10px;
+    background-color: lightgray;
+    position: absolute;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.subscribe-title {
+    position: absolute;
+    margin-top: -0.8em;
+    margin-right: 1em;
+    margin-left: -1em;
+    font-size: 10em;
+}
+
+.left-block {
+    background-color: #2B303C;
+    height: 25em;
+    width: 30em;
+}
+
+.left-text {
+    color: #eaeaea;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9BA6B4;
+    height: 25em;
+    width: 30em;
+}
+
+
+.subscribe-button {
+    background-color: #202020;
+    color: whitesmoke;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    margin-top: 2em;
+    margin-left: 16.5em;
+    transition: 0.5s;
+}
+
+.subscribe-button:hover {
+    transform: scale(1.05);
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+
+.subscribe-button:focus {
+    outline: 0;
+}
+
+.require-email {
+    margin-right: 0em;
+    font-size: 2em;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+}
+
+
+.border-input {
+    border-top: 3px solid rgba(255,255,255,0.4);
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 1px;
+}
+
+.border-input:focus {
+    outline: -webkit-focus-ring-color auto 1px;
+}
 
 
 
@@ -150,6 +367,7 @@ main{
 
 
 
+/* CARD */
 
 
 
@@ -274,7 +492,7 @@ main{
 }
 
 .menuBurger {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(170, 170, 170);
     position: absolute;
     width: 100%;
     display: none;
@@ -300,12 +518,11 @@ button:focus {
     display: none;
     justify-content: center;
     align-items: center;
-    background-color:rgb(226, 226, 226);
+    background-color: rgb(170, 170, 170);
     width: 100%;
     bottom: 0;
     padding-top: 1em;
     padding-bottom: 1em;
-    z-index: 200;
 }
 
 .animOn {
