@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        
-        <div class="banniere-home">   
-        
-        <?php include "header.php" ?>
+        <div class="banniere-home">
+            <?php include "header.php" ?>
         </div>
+
     </header>
 
 
@@ -22,7 +22,7 @@
 
         <div class="discover">
             <div class="discover-in">
-                <h2>.Discovering our planet</h2>
+                <h2>.Discover our planet</h2>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum eveniet asperiores nemo quasi, dignissimos deserunt sapiente? Incidunt aspernatur ad tenetur asperiores quia reiciendis recusandae iste culpa, nam, esse dolorem eos!
             </div>
             <div class="triangle">
@@ -144,38 +144,40 @@
 
         <div class="meteo-card-wrapper">
 
-            <div class="meteo-card appa">                
+            <div class="meteo-card appa">
                 <img class="meteo-img" src="https://picsum.photos/130/130" alt="">
                 <p class="city-name">Paris</p>
                 <div class="meteo-temp"></div>
-                <div class="meteo-hour"></div>    
-            </div>    
+                <div class="meteo-hour"></div>
+            </div>
 
-            <div class="meteo-card appa">                
+            <div class="meteo-card appa">
                 <img class="meteo-img" src="https://picsum.photos/130/130" alt="">
                 <p class="city-name">Tokyo</p>
                 <div class="meteo-temp"></div>
-                <div class="meteo-hour"></div>    
-            </div>   
+                <div class="meteo-hour"></div>
+            </div>
 
-            <div class="meteo-card appa">                
+            <div class="meteo-card appa">
                 <img class="meteo-img" src="https://picsum.photos/130/130" alt="">
                 <p class="city-name">London</p>
                 <div class="meteo-temp"></div>
-                <div class="meteo-hour"></div>    
-            </div>   
+                <div class="meteo-hour"></div>
+            </div>
 
-            <div class="meteo-card appa">                
+            <div class="meteo-card appa">
                 <img class="meteo-img" src="https://picsum.photos/130/130" alt="">
                 <p class="city-name">New York</p>
                 <div class="meteo-temp"></div>
-                <div class="meteo-hour"></div>    
-            </div>   
+                <div class="meteo-hour"></div>
+            </div>
 
         </div>
 
-        <div class="meteo-border"><h2>.Earth Meteo</h2></div>
-        
+        <div class="meteo-border">
+            <h2>.Earth Meteo</h2>
+        </div>
+
     </div>
 
 
@@ -188,7 +190,9 @@
     <script src="card.js"></script>
     <script src="popBtn.js"></script>
     <script src="meteo.js"></script>
-    
+    <!-- <script src="navbar.js"></script> -->
+    <script src="nav.js"></script>
+
 </body>
 
 </html>
