@@ -5,15 +5,16 @@
     --backgroundHight: #73f340;
     --backgroundMedium: #E0E8FC;
     --backgroundLow: lightgray;
+
     --heightBannerDesktop: 30em;
     --heightBannerMobile: 15em;
     --bannerH1SizeDesktop: 4em;
     --bannerH1SizeMobile: 3em;
+
     --bannerH2SizeDesktop: 2em;
     --bannerH2SizeMobile: 1.5em;
 
 }
-
 
 * {
     margin: 0;
@@ -429,4 +430,143 @@ code couleur pour le vert fluo : #73f340
 
 }
 /* FIN CSS THINGS TO DO  */
+/* FOOTER */
+/*  BURGER CSS */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Traveller */
+
+
+.banner-traveller {
+    height: 30em;
+    background-image: url("img/space-elevator-daily-galaxy.jpg");
+    background-size: cover;
+    height: var(--heightBannerDesktop);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-traveller{
+    color: white;
+    
+}
+.intro-traveller {
+    width: 95%;
+    margin: 3%;
+}
+
+.intro-traveller h2 {
+    margin-bottom: 3%;
+    text-decoration: underline var(--backgroundHight);
+    font-size: var(--bannerH2SizeDesktop);
+}
+.global-container-traveller {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 100%;
+
+}
+
+.container-traveller {
+    width: 30%;
+    padding: 1%;
+    margin: 2%;
+    background-color: var(--backgroundMedium);
+    box-shadow: 2px 4px 10px #CCD7F3;
+}
+
+.container-traveller img {
+    max-width: 100%;
+}
+
+.container-traveller p, .container-traveller h3 {
+    margin: 3%;
+}
+
+
+@media screen and (max-width:768px){
+
+    .banner-traveller {
+        height: var(--heightBannerMobile);
+    }
+    
+    .title-traveller {
+        font-size: var(--bannerH1SizeMobile);
+    }
+
+    .intro-traveller h2 {
+        font-size: var(--bannerH2SizeMobile);
+    }
+
+    .global-container-traveller{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-traveller{
+        width: 95%;
+        margin: 3%;
+    }
+    
+    main {
+       margin: -70px 5% 0 5%;
+        
+    }
+
+}
+
+/* Fin de CSS Traveller */
