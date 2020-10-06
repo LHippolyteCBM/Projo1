@@ -13,7 +13,7 @@
         
         <div class="banniere-home">   
         
-        <div class="menu"><?php include "header.php" ?></div>  
+        <?php include "header.php" ?>
         </div>
     </header>
 

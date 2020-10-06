@@ -1,29 +1,58 @@
-let navig = document.querySelector('nav');
+let navBloc = document.querySelector('nav');
+let navInitPos = navBloc.offsetTop;
 let backMove = document.querySelector('.back-move');
-let dirNav = '';
-let dirStat = 0;
-let parsedUrl = new URL(window.location.href),
-    pathName = parsedUrl.pathname;
-
-console.log(pathName);
-console.log(parsedUrl)
+let navBlocHei = navBloc.offsetHeight;
+let cloneMenu = navBloc.cloneNode(true);
+let backDirection = '';
+let tempDir = 0;
 
 
-backMove.style.width = navig.offsetWidth + 'px';
-let bmV = navig.offsetHeight;
+backMove.style.width = '100%';
+
+
+
 
 
 window.addEventListener('scroll', menuTrans)
 
 
 function menuTrans() {
-    backMove.style.setProperty('--plop', (window.scrollY / 2) / 100);
-    if (parseInt(backMove.style.height) > bmV) {
-        backMove.style.height = bmV;
-    } else if ((window.scrollY / 3) < bmV) {
-        backMove.style.height = (window.scrollY / 3) + 'px';
+
+    let navBlocBottom = navBloc.offsetTop + navBloc.offsetHeight;
+
+    tempDir = parseInt(backMove.style.height);
+    console.log(backDirection)
+
+    if (parseInt(backMove.style.height) > navBlocHei && scrollY > navBlocBottom) {
+        backMove.style.height = navBlocHei;
+        backMove.appendChild(cloneMenu);
+
+
+    } else if (scrollY > navBloc.offsetTop) {
+        backMove.style.height = ((window.scrollY - navBloc.offsetTop) / 2) + 'px';
+
+        if (parseInt(backMove.style.height) > tempDir) {
+            backDirection = 'DOWN';
+        } else {
+            backDirection = 'UP';
+        }
+        tempDir = parseInt(backMove.style.height);
+
+    } else if (scrollY < navBloc.offsetTop) {
+        backMove.style.height = 0;
+    }
+
+    if (backDirection === 'UP') {
+        cloneMenu.parentElement.removeChild(cloneMenu);
     }
 
 }
 
-window.addEventListener('resize',menuTrans)
+
+
+
+
+
+
+
+

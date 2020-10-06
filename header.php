@@ -7,9 +7,10 @@
       <li><a class="nav-items">ONLINE BOOKING</a></li>
     </ul>
     <div class="back-move"></div>
+    
   </div>
 </nav>
 
 
-<script src="navbar.js"></script>
-<!-- <script src="nav.js"></script> -->
+<!-- <script src="navbar.js"></script> -->
+<script src="nav.js"></script>
