@@ -492,12 +492,13 @@ code couleur pour le vert fluo : #73f340
     height: 30em;
     background-image: url("img/space-elevator-daily-galaxy.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    height: var(--heightBannerDesktop);
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .title-traveller{
     color: white;
     
