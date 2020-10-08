@@ -61,9 +61,9 @@
 
 
     <?php include 'burger.php'; ?>
-    
-    <?php include 'footer.php'; ?>
-    
+    <footer>
+        <?php include 'footer.php'; ?>
+    </footer>
     <script src="burger.js"></script>
     <script src="card.js"></script>
 </body>
