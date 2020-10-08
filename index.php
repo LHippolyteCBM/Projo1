@@ -23,7 +23,10 @@
         <div class="discover">
             <div class="discover-in">
                 <h2>.Discover our planet</h2>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum eveniet asperiores nemo quasi, dignissimos deserunt sapiente? Incidunt aspernatur ad tenetur asperiores quia reiciendis recusandae iste culpa, nam, esse dolorem eos!
+               <b>Welcome on Nucleus !</b> The official earth guide. Come and visit our GalaxyWilde known attractions.
+               You will be more than welcome in our restaurants to enjoy our local food and you can spend the rest of 
+               the day shopping in our amazing shops ! You can try amazing things like music listening or cinema,
+               exclusive earth activities. Let's share together what earth has to offer ! 
             </div>
             <div class="triangle">
             </div>
@@ -35,14 +38,14 @@
             <p>as you are and meet our local resident !</p>
         </div>
         <div class="robot">
-
             <div class="robot-img-cadre">
                 <div class="home-image-slider">
                     <figure>
                         <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
                         <img src="/img/robot.jpg" alt>
-                        <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
-                        <img src="/img/robot.jpg" alt>
+                        <img src="/img/andro.jpg" alt>
+                        <img src="/img/trum.jpg" alt>
+                        <img src="/img/term.jpg" alt>
                     </figure>
                 </div>
             </div>
@@ -131,14 +134,12 @@
 
     <div class="paysage">
         <p><b>Amazing Landscape</b></br>
-            Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit.</br>
-            * Ea, nulla! Blanditiis molestias mollitia doloribus natus</br>
+            Earth got some marvelous places to stop by.</br>
             veniam et commodi, nesciunt</br>
             tempore quibusdam nostrum placeat ipsum </br>
             laborum hic libero. Asperiores, libero corporis.</p>
         <div class="robot-img-cadre appa">
-            <img class="robot-img" src="https://picsum.photos/800/300" alt="" />
+            <img class="robot-img" src="img/landscape.jpg" alt="" />
         </div>
     </div>
 

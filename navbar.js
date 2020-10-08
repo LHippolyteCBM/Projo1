@@ -1,7 +1,6 @@
 const navItems = document.querySelectorAll('.nav-items')
 
 
-
 let parsedUrl = new URL(window.location.href),
     pathName = parsedUrl.pathname;
 
@@ -26,7 +25,7 @@ navItems.forEach(x => {
         x.style.backgroundColor = '#DEE1E4'
         x.style.color = '#333a3a'
     }
-    console.log(x)
+
 })
 
 
