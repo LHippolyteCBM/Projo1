@@ -106,9 +106,11 @@ nav {
 
 .nav-container {
     display: flex;
-    justify-content: space-evenly;    
-    color: white;
-    letter-spacing: 2px;   
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    list-style: none;
+    padding: 20px 0;
+    background-color: #9ba6b4ba;
 }
 
 .nav-container .nav-items  {
@@ -116,11 +118,11 @@ nav {
     cursor: pointer;
     position: relative;
     list-style: none;
-    margin: 0 1.4em;
-    padding: 1.2em 1.6em;
+    padding: 20px 35px;
     transition: all 0.2s;
     transition-delay: 0.2s;
   }
+
   .nav-container .nav-items::before {
     content: "";
     position: absolute;
@@ -132,20 +134,29 @@ nav {
     transition: all  0.2s;
   }
   .nav-container .nav-items:hover {
-    background-color: rgb(225 255 241 / 17%);
+    background-color: #DEE1E4;
+    color: #333a3a;
   }
 
-.focusOnclick {
-    content: "";
-    position: absolute;
-    background-color: rgb(225 255 241 / 17%);
-}
+
   .nav-container .nav-items:hover::before {
     bottom: 56px;
     left: 0;
-    background-color: rgb(225 255 241 / 17%);
-}
+    background-color: #DEE1E4;
+  }
  
+
+.banniere {
+    height: 30em;
+    background-image: url("/img/alexander-andrews-eNoeWZkO7Zc-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 main{
     margin: 50px 10% 0 10% ;
@@ -184,39 +195,206 @@ main{
 
 
 
+/* IMAGE-SLIDER ---------------------------------------------------------------------------------------------------------------------- */
+
+div.home-image-slider {
+    overflow: hidden;
+    height: 30em;
+    } 
+
+div.home-image-slider figure { 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
+}
+div.home-image-slider figure img {
+    width: 20%;
+    height: auto;
+    float: left; 
+}
+
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+div.home-image-slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slidy infinite;
+  }
+      
 
 
 
+/* CARD ---------------------------------------------------------------------------------------------------------------------- */
 
 
+.global-card-container {
+    display: flex;
+    justify-content: space-around;
+    height: 40em;
+    margin-bottom: 50em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    height: 30em;
+    width: 20em;
+    /*border-radius: 15px;*/
+    position: relative;
+    transition: .2s;
+            -webkit-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+            -moz-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+            box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+}
+
+.card-container:hover {
+   transform: scale(1.05);
+            -webkit-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
+            -moz-box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
+            box-shadow: 0px 28px 21px -7px rgba(150,150,150,1);
+}
+
+.card-header {
+    background-color: lightgrey;
+    height: 18em;
+    width: 20em;
+    /*border-top-left-radius: 15px;
+    border-top-right-radius: 15px;*/
+    position: absolute;
+}
 
 
+a {
+    text-decoration: none;
+    color: black;
+}
+.card-button {
+    padding: 15px 30px 15px 30px;
+    margin-top: 25em;
+    /*border-radius: 10px;*/
+    background-color: lightgray;
+    position: absolute;
+    transition: .2s;
+        -webkit-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+        -moz-box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+        box-shadow: 0px 11px 21px -7px rgba(150,150,150,1);
+    cursor: pointer;
+}
+
+.card-container-expanded {
+    padding-bottom: 16em;
+}
+
+.card-button-expanded {
+    padding: 15px 30px 15px 30px;
+    margin-top: 42em;
+    border-radius: 10px;
+    background-color: lightgray;
+    position: absolute;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.subscribe-title {
+    position: absolute;
+    margin-top: -0.8em;
+    margin-right: 1em;
+    margin-left: -1em;
+    font-size: 10em;
+}
+
+.left-block {
+    background-color: #2B303C;
+    height: 25em;
+    width: 30em;
+}
+
+.left-text {
+    color: #eaeaea;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9BA6B4;
+    height: 25em;
+    width: 30em;
+}
 
 
+.subscribe-button {
+    background-color: #202020;
+    color: whitesmoke;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    margin-top: 2em;
+    margin-left: 16.5em;
+    transition: 0.5s;
+}
+
+.subscribe-button:hover {
+    transform: scale(1.05);
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+
+.subscribe-button:focus {
+    outline: 0;
+}
+
+.require-email {
+    margin-right: 0em;
+    font-size: 2em;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-top: 5px;
+}
 
 
+.border-input {
+    border-top: 3px solid rgba(255,255,255,0.4);
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 1px;
+}
 
+.border-input:focus {
+    outline: -webkit-focus-ring-color auto 1px;
+}
 
-/* NAV */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* HOME */
+/* HOME ---------------------------------------------------------------------------------------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
@@ -237,44 +415,7 @@ main{
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  BURGER CSS */
+/*  BURGER CSS ---------------------------------------------------------------------------------------------------------------------- */
 
 .wrapper {
     display: inline-block;
@@ -360,7 +501,6 @@ button:focus {
     bottom: 0;
     padding-top: 1em;
     padding-bottom: 1em;
-    z-index: 200;
 }
 
 .animOn {
@@ -394,217 +534,7 @@ button:focus {
  
 }
 
-
-/*  BURGER CSS */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* HOME */ 
+/* HOME ---------------------------------------------------------------------------------------------------------------------- */
 
 
 
@@ -647,7 +577,6 @@ main{
     display: grid;
     grid-template-columns: 8fr 1fr;
     grid-template-rows: -0.5fr 1fr 1fr ;
-    
 }
 
 .discover h2 {
@@ -671,14 +600,17 @@ main{
     grid-row: 2;
     grid-column: 1/4;
     justify-self: start;
+        -webkit-box-shadow: 0px 11px 17px -9px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 11px 17px -9px rgba(0,0,0,0.75);
+        box-shadow: 0px 11px 17px -9px rgba(0,0,0,0.75);
 }
 
 .robot-img-cadre {
     padding: 0.5em;
     background-color: var(--backgroundLow);
     grid-column: 1;
-    width: fit-content;
-    margin-top: 1em;    
+    margin-top: -9em;    
+
 }
 
 .robot-text{
@@ -687,7 +619,7 @@ main{
     background-color: var(--backgroundHight);
     grid-row: 3;
     grid-column: 1/3;
-    margin-top: 4em;
+    margin-top: -0.7em;
     text-align: center;
     padding-top: 1em;
 }
@@ -696,7 +628,6 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 6em;
     grid-column: 1/3;
     grid-row: 3/4;
 }
@@ -885,15 +816,8 @@ main{
     }
 }
 
-/* HOME */
 
-
-
-
-
-
-
-/* APPARITION */ 
+/* APPARITION ---------------------------------------------------------------------------------------------------------------------- */ 
 
 [class*="appa"] {
     transform: scale(0);
@@ -925,19 +849,8 @@ main{
     }
 }
 
-/* APPARITION */
 
-
-
-
-
-
-
-
-
-
-
-/* POP DIV */ 
+/* POP DIV ---------------------------------------------------------------------------------------------------------------------- */ 
 
 
 
@@ -1000,17 +913,20 @@ main{
     }
 }
 
-
-/* POP DIV */ 
-
+/* NAV TESST ---------------------------------------------------------------------------------------------------------------------- */
 
 
+li {
+    list-style: none;
+}
 
 
-
-
-
-
-
-
+.back-move {
+    background-color:white;
+    opacity: var(--plop);
+    position: fixed;
+    top: 0;
+    left: 0;  
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
 
