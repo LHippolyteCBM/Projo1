@@ -1,7 +1,4 @@
-:root {
-    --background: white;
-    --textColor: black;
-    --police: roboto;
+:root{
     --backgroundHight: #73f340;
     --backgroundMedium: #E0E8FC;
     --backgroundLow: lightgray;
@@ -475,4 +472,6 @@ button:focus {
 
 .banner-img-accommodation {
     background-image: url(img/restaurantbanner1.png);
+}
+=======
 }
