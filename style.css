@@ -2,9 +2,9 @@
     --background: white;
     --textColor: black;
     --police: roboto;
-    --backgroundHight: grey;
-    --backgroundMedium: blue;
-    --backgroundLow: green;
+    --backgroundHight: #73f340;
+    --backgroundMedium: #E0E8FC;
+    --backgroundLow: lightgray;
     --heightBannerDesktop: 30em;
     --heightBannerMobile: 15em;
     --bannerH1SizeDesktop: 4em;
@@ -12,10 +12,12 @@
     --bannerH2SizeDesktop: 2em;
     --bannerH2SizeMobile: 1.5em;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
+
 
 /* TRY SQUELETTE */ 
 
@@ -43,25 +45,17 @@ li {
     background-attachment: fixed;
     z-index: 1;
 }
-.banniereaccommodation {
-    background-size: cover;
-    background-image: url("img/restauranttest.jpg");
-    height: var(--heightBannerDesktop);
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
 
 main{
     margin: -70px 10% 0 10% ;
-    background-color: red;
+    background-color: var(--backgroundLow);
     z-index: 800;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* TRY SQUELETTE */ 
-
 
 /* NAV */ 
 
@@ -379,10 +373,106 @@ button:focus {
 }
 /* FOOTER */
 
-/*ACCOMMODATION*/
 
-.accommodationcontent{
+/* CSS PAGES CONTENUS*/
+
+.banner-content {
+    background-size: cover;
+    height: var(--heightBannerDesktop);
+    background-position: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/*ACCOMMODATION*/
+.banner-content h1 {
+    color: white;
+    font-size: var(--bannerH1SizeDesktop);
+    background-color:rgba(115, 243, 64, 0.4);
+    text-align: center;
+}
+
+.intro-content {
+    width: 95%;
+    margin: 3%;
+}
+
+.intro-content h2 {
+    margin-bottom: 3%;
+    text-decoration: underline var(--backgroundHight);
+    font-size: var(--bannerH2SizeDesktop);
+}
+
+.global-container-content {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 100%;
+}
+
+.container-content {
+    width: 30%;
+    padding: 1%;
+    margin: 2%;
+    background-color: var(--backgroundMedium);
+    box-shadow: 2px 4px 10px #CCD7F3;
+}
+
+.container-content img {
+    max-width: 100%;
+}
+
+.container-content p, .container-content h3 {
+    margin: 3%;
+}
+
+/*MOBILE */
+
+@media screen and (max-width:768px){
+
+    .banner-content {
+        height: var(--heightBannerMobile);
+    }
+    
+    .banner-content h1 {
+        font-size: var(--bannerH1SizeMobile);
+    }
+
+    .intro-content h2 {
+        font-size: var(--bannerH2SizeMobile);
+    }
+
+    .global-container-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-content{
+        width: 95%;
+        margin: 3%;
+    }
+    
+    main {
+       margin: -70px 5% 0 5%;
+    }
+}
+
+
+/* CSS THINGS TO DO */
+
+.banner-img-things {
+    background-image: url(img/banner-things-to-do.jpg);
+}
+
+
+/* CSS Traveller */
+
+.banner-img-traveller {
+    background-image: url("img/space-elevator-daily-galaxy.jpg");
+}
+
+/*CSS Accommodation */
+
+.banner-img-accommodation {
+    background-image: url(img/restaurantbanner1.png);
+}
