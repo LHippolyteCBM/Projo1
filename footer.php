@@ -1,4 +1,5 @@
 <footer class="footer">
+
     <div class ="firsttextfooter">
         Our favorites networks
     </div>

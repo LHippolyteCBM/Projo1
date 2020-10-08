@@ -8,6 +8,7 @@
 </head>
 <body>
 
+
     <header>
         <?php include "header.php" ?>
         <div class="banner-content banner-img-traveller">

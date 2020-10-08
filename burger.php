@@ -10,6 +10,6 @@
     <div class="wrapper">
         <div id="bar1" class="barre"></div>
         <div id="bar2" class="barre"></div>
-        <div id="bar3" class="barre"></div>
+        <div id="bar3" class="barre"></div> 
     </div>
 </div>
