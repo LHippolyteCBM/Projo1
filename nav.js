@@ -6,8 +6,6 @@ let backDirection = '';
 let tempDir = 0;
 
 
-
-
 window.addEventListener('scroll', menuTrans);
 
 

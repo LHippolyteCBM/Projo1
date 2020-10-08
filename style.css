@@ -531,7 +531,7 @@ button:focus {
     nav {
         display: none;
     }
- 
+
 }
 
 /* HOME ---------------------------------------------------------------------------------------------------------------------- */
@@ -539,10 +539,11 @@ button:focus {
 
 
 
+
 .banniere-home {
     
-    background-image: url("https://picsum.photos/1800/800");
-    background-size: cover;
+    background-image: url("./img/earth.jpg");
+    background-size: auto;
     background-attachment: fixed;
     display: flex;
     justify-content: center;

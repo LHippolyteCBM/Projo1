@@ -14,7 +14,6 @@
         <div class="banniere-home">
             <?php include "header.php" ?>
         </div>
-
     </header>
 
 
