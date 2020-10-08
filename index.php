@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="banniere-home">
@@ -28,22 +30,19 @@
         </div>
 
 
-
-
-
         <h2 class="come">.Come!</h2>
         <div class="robot-text">
-
+            <p>as you are and meet our local resident !</p>
         </div>
         <div class="robot">
+
             <div class="robot-img-cadre">
                 <div class="home-image-slider">
                     <figure>
                         <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
-                        <img src="/img/adrien-converse-kCrrUx7US04-unsplash.jpg" alt>
-                        <img src="/img/leyy-71SHXwBLp5w-unsplash.jpg" alt>
-                        <img src="/img/zachary-smith-DgBNkXB-ckI-unsplash.jpg" alt>
+                        <img src="/img/robot.jpg" alt>
                         <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
+                        <img src="/img/robot.jpg" alt>
                     </figure>
                 </div>
             </div>
@@ -197,4 +196,5 @@
     <script src="nav.js"></script>
 
 </body>
+
 </html>
