@@ -27,23 +27,30 @@
             </div>
             <div class="triangle">
             </div>
+    </div>      
+            
+            
 
 
 
             <h2 class="come">.Come!</h2>
             <div class="robot-text">
-                and meet our local resident !
+
             </div>
             <div class="robot">
+
                 <div class="robot-img-cadre appa">
-                    <img class="robot-img" src="https://picsum.photos/400/300" alt="" />
+                <div class="home-image-slider">
+                            <figure>
+                                <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
+                                <img src="/img/adrien-converse-kCrrUx7US04-unsplash.jpg" alt>
+                                <img src="/img/leyy-71SHXwBLp5w-unsplash.jpg" alt>
+                                <img src="/img/zachary-smith-DgBNkXB-ckI-unsplash.jpg" alt>
+                                <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
+                            </figure>
                 </div>
-                <div class="robot-img-cadre appa">
-                    <img class="robot-img" src="https://picsum.photos/400/300" alt="" />
                 </div>
-                <div class="robot-img-cadre appa">
-                    <img class="robot-img" src="https://picsum.photos/400/300" alt="" />
-                </div>
+
             </div>
         </div>
 

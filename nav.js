@@ -25,5 +25,3 @@ function menuTrans() {
     }
 
 }
-
-window.addEventListener('resize',menuTrans)
