@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <?php include 'header.php';?>
-    <?php include 'footer.php';?>
-    <script src="main.js"></script>
     <header>
-        <?php include "header.php" ?>
-        <div class="banner-content banner-img-traveller">
-            <h1 class="title-traveller">Transports</h1>
+        <div class=" banner-img-traveller banniere-home">
+            <?php include "header.php" ?>
         </div>
     </header>
-    
 
-    <main>
+    <main class ="main-font-color">
         <div class="intro-content">
             <h2>How to come to Earth ?</h2>
             <p>On this page you can find all informations you need in regards to every transports system available to come and go around on Earth.From low budget to premium transport services you will find what you need on this page.</p>
@@ -36,12 +34,12 @@
             </div>
         </div>
         <div class="global-container-content">
-            <div class="container-content">
+            <div class="container-content appa">
                 <img src="img/AtmosShuttle.jpg" alt="Atmospheric Shuttle Picture">
                 <h3>Planetary Shuttle and Nuuber</h3>
                 <p>The second way to go down to surface is a Premium Planetary Shuttle of the Nuuber compagny, it's faster, less crowded than the elevator and more comfortable! the Nuuber company also provides private drivers and atmospheric vehicules to it's client!</p>
             </div>
-            <div class="container-content">
+            <div class="container-content appa">
                 <img src="img/Monorail.jpg" alt="Futurist bowling photo" srcset="">
                 <h3>Ground Transports</h3>
                 <p>To go around the surface while keeping your budget in check, feel free to use the Webway Monorail system, as well as the Atmospheric Public Transport System (A.P.T.S).</p>
@@ -54,6 +52,12 @@
         <?php include 'footer.php'; ?>
     </footer>
     <script src="burger.js"></script>
+    <script src="apparition.js"></script>
     <script src="card.js"></script>
+    <script src="popBtn.js"></script>
+    <script src="meteo.js"></script>
+    <script src="navbar.js"></script>
+    <script src="nav.js"></script>
 </body>
+
 </html>
