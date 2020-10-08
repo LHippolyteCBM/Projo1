@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
+    <?php include 'header.php';?>
+    <?php include 'footer.php';?>
+    <script src="main.js"></script>
     <header>
         <?php include "header.php" ?>
         <div class="banner-content banner-img-traveller">
             <h1 class="title-traveller">Transports</h1>
         </div>
     </header>
-    
-
     <main>
         <div class="intro-content">
             <h2>How to come to Earth ?</h2>

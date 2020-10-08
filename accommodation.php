@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <?php include 'header.php';?>
+    <?php include 'footer.php';?>
+    <script src="main.js"></script>
     <header>
         <?php include "header.php" ?>
         <div class="banner-content banner-img-accommodation">
@@ -48,7 +50,6 @@
             </div>
         </div>
     </main>
-
     <?php include 'burger.php'; ?> 
     <footer>
         <?php include 'footer.php'; ?>
