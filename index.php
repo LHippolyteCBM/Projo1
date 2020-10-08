@@ -52,8 +52,7 @@
         </div>
         </div>
 
-
-
+    
     </main>
     <h2 class="certif-text">.Certification</h2>
 
