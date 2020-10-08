@@ -922,7 +922,7 @@ li {
 
 
 .back-move {
-    background-color:white;
+    background-color:var(--backgroundLow);
     opacity: var(--plop);
     position: fixed;
     top: 0;

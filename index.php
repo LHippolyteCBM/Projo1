@@ -39,7 +39,7 @@
             </div>
             <div class="robot">
 
-                <div class="robot-img-cadre appa">
+                <div class="robot-img-cadre">
                 <div class="home-image-slider">
                             <figure>
                                 <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
