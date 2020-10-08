@@ -16,8 +16,6 @@
             <h1 class="title-traveller">Transports</h1>
         </div>
     </header>
-    
-
     <main>
         <div class="intro-content">
             <h2>How to come to Earth ?</h2>

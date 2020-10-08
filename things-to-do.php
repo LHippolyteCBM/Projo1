@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
     <header>
         <?php include "header.php" ?>
@@ -15,6 +16,8 @@
             <h1>Things to do</h1>
         </div>
     </header>
+
+
     
 
     <main>
