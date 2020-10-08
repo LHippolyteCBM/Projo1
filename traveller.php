@@ -23,12 +23,12 @@
         </div>
         <div class="global-container-content">
             <div class="container-content">
-                <img src="img/Aquila_InFlight.jpg" alt="Space Shuttle Picture">
-                <h3>Long Range Transport Shuttle</h3>
-                <p>To come to Earth you need to take an LRTS, which can transport you from planet to planet until you arrive at Earth docking Space Terminal. </p>
+                <img src="img/Aquila_InFlight.jpg" alt="Space Ship Picture">
+                <h3>Long Range Carrier</h3>
+                <p>To come to Earth you need to take an LRC, which can transport you from planet to planet until you arrive at Earth docking Space Terminal. </p>
             </div>
             <div class="container-content">
-                <img src="img/corbuloSpaceElevator.png" alt="Orbital Elevator Picture" srcset="">
+                <img src="img/corbuloSpaceElevator.jpg" alt="Orbital Elevator Picture" srcset="">
                 <h3>Orbital Elevator</h3>
                 <p>Once arrived in Earth Space Terminal you need to proceed to the Earth surface, you will need to take one of two transports systems available to you.One of them is the O.E, a giant elevator that go from the Earth surface to Earth's Space Terminal 70Km above the surface!It's the "Budget" way to go down but the queue to use it is long, and you go down along with freight containers and other people.</p>
             </div>
