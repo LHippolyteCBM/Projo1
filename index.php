@@ -27,31 +27,29 @@
             </div>
             <div class="triangle">
             </div>
-    </div>      
-            
-            
+        </div>
 
 
 
-            <h2 class="come">.Come!</h2>
-            <div class="robot-text">
 
-            </div>
-            <div class="robot">
 
-                <div class="robot-img-cadre">
+        <h2 class="come">.Come!</h2>
+        <div class="robot-text">
+
+        </div>
+        <div class="robot">
+            <div class="robot-img-cadre">
                 <div class="home-image-slider">
-                            <figure>
-                                <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
-                                <img src="/img/adrien-converse-kCrrUx7US04-unsplash.jpg" alt>
-                                <img src="/img/leyy-71SHXwBLp5w-unsplash.jpg" alt>
-                                <img src="/img/zachary-smith-DgBNkXB-ckI-unsplash.jpg" alt>
-                                <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
-                            </figure>
+                    <figure>
+                        <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
+                        <img src="/img/adrien-converse-kCrrUx7US04-unsplash.jpg" alt>
+                        <img src="/img/leyy-71SHXwBLp5w-unsplash.jpg" alt>
+                        <img src="/img/zachary-smith-DgBNkXB-ckI-unsplash.jpg" alt>
+                        <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
+                    </figure>
                 </div>
-                </div>
-
             </div>
+        </div>
         </div>
 
 
