@@ -13,104 +13,113 @@
         <?php include "header.php" ?>
         <div class="banniere"></div>
     </header>
-    
+
+  
 
     <main>
+    <div class=“booking-background”>
+        <div class=“booking-container”>
+            <p class=‘subscribe-title’ id=‘booking-title’>Easy Online Booking</p>
+            <div class=‘left-block’></div>
+            <p class=’left-text’ id=‘left-text-booking’>FLY<br><br>Through<br><br>TIME</p>
+            </div>
+            <div class=“right-block” id=‘right-block-booking’></div>
+        </div>
+    </div>
         <div class="container-all">
             <h2>Booking</h2>
-            <div class="container-form-1">
-                <div class="block-left-form-1">
-                    <label>
-                        <br><input placeholder="Destination" type="text" name="name" class="case"/> <br>
-                    </label>
-                    <label>
-                        <br> <input placeholder="Number of adults" type="text" name="Number of adults" class="case"/> <br>
-                    </label>
+            <div class="input-container">
+                <div class="case">
+                    <label for="destination"></label>
+                    <input id="destination" placeholder="Destination" type="text" name="destination" class="champs"/>
                 </div>
-                <div class="block-right-form-1">
-                    <label>
-                        <br><input placeholder="Budget" type="text" name="Buget" class="case"/><br>
-                    </label>
-                    <label>
-                        <br><input placeholder="Number of childrens" type="text" name="Number of childrens" class="case"/><br>
-                    </label>
+                <div class="case">
+                    <label for="budget"></label>
+                    <input id="budget" placeholder="Budget" type="text" name="buget" class="champs"/>  
                 </div>
             </div>
-            <div class="container-form-2">
-                <div class="block-left-form-2">
-                    <div class="calendar">
-                        <label for="Start date">Departure</label>
-                        <input  type="date" id="when" name="trip-start"  value="3020-10-09"min="3020-10-09" max="3030-12-31" class="date">
-                    </div>
+            <div class="input-container">
+                <div class="case">
+                    <label for="nbAdults"></label>
+                    <input id="nbAdults" placeholder="Number of adults" type="text" name="nbAdults" class="champs"/>
                 </div>
-                <div class="block-right-form-2">
-                    <div class="calendar">
-                        <label for="Return date">Return</label>
-                        <input type="date" id="start" name="trip-start" value="3020-10-10"min="3020-10-10" max="3030-12-31" class="date">
-                    </div>
+                <div class="case">
+                    <label for="nbChildren"></label>
+                    <input id="nbChildren" placeholder="Number of childrens" type="text" name="nbChildren" class="champs"/>
                 </div>
             </div>
-            <div class="container-form-3">
-                <div class="block-left-form-3">
-                     <label for="Civility"></label>
-                        <select name="Civility" id="Civility-select" class="civility">
-                            <option value="">--Please choose a civility--</option>
-                            <option value="dog">M.</option>
-                            <option value="cat">MME.</option>
-                            <option value="hamster">Robot.</option>
+            <div class="input-container">
+                <div class="case">
+                    <label for="departure">Departure</label>
+                    <br>
+                    <input  type="date" id="departure" name="departure"  value="3020-10-09"min="3020-10-09" max="3030-12-31" class="date">
+                </div>
+                <div class="case">
+                    <label for="return">Return</label>
+                    <br>
+                    <input type="date" id="return" name="return" value="3020-10-10"min="3020-10-10" max="3030-12-31" class="date">
+                </div>
+            </div>
+            <div class="input-container">
+                <div class="case">
+                    <label for="civility"></label>
+                        <select name="civility" id="civility" class="civility">
+                            <option value="">--Civility--</option>
+                            <option value="monsieur">M.</option>
+                            <option value="madame">MME.</option>
+                            <option value="robot">Robot.</option>
                             <option value="others">Others.</option>
                         </select>
-                    <label>
-                        <br> <input placeholder="First name" type="text" name="Duration" class="case"/> <br>
-                    </label>
-                    <label>
-                        <br><input placeholder="Adress" type="text" name="Departur" class="case"/><br>
-                    </label>
                 </div>
-                <div class="block-right-form-3">
-                    <label>
-                        <br><input placeholder="Email" type="text" name="Buget" class="case"/><br>
-                    </label>
-                    <label>
-                        <br><input placeholder="Second name" type="text" name="Number of adults" class="case"/><br>
-                    </label>
-                    <label>
-                        <br><input placeholder="Country" type="text" name="Number of children" class="case"/><br>
-                    </label>
+                <div class="case">
+                <label for="email"></label>
+                    <input id="email" placeholder="Email" type="text" name="email" class="champs"/>
                 </div>
             </div>
-            <div class="container-form-4">
-                     <input placeholder="Comment" type="text"  name="comment" class="comment"/>
-            </div>
-            <div class="container-form-5">
-                <div class="checkbox-container">
-                    <div class="checkbox">
-                        <input type="checkbox" name="I participate in the trip" value="true" id="je participe au voyage">
-                        <label for="I participate in the trip">I participate in the trip</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="I accept the general conditions" value="true" id="je participe au voyage">
-                        <label for="I accept the general conditions">I accept the general conditions</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" name="I agree to be contacted by email" value="true" id="je participe au voyage">
-                        <label for="I agree to be contacted by email">I agree to be contacted by email</label>
-                    </div>
+            <div class="input-container">
+                <div class="case">
+                    <label for="firstname"></label>
+                    <input id="firstname" placeholder="First name" type="text" name="firstname" class="champs"/> <br>
+                </div>
+                <div class="case">
+                    <label for="secondname"></label>
+                    <input id="secondname" placeholder="Second name" type="text" name="secondname" class="champs"/>
                 </div>
             </div>
-            <div class="container-form-6">
-                        <div class="send-input-container">
-                            <label>
-                                <input type="submit" value="Book" class="send"/>
-                            </label>  
-                        </div>
-                    </div>
+            <div class="input-container">
+                <div class="case">
+                    <label for="adress"></label>
+                    <input id="adress" placeholder="Adress" type="text" name="adress" class="champs"/>
                 </div>
+                <div class="case">
+                    <label for="planet"></label>
+                    <input id="planet" placeholder="Planet" type="text" name="planet" class="champs"/>
+                </div>
+            </div>
+            <div class="input-container comment">
+                <label for="comment"></label>
+                <textarea id="comment" name="comment">Comment</textarea>
+            </div>
+            <div class="checkbox-container">
+                <div class="agree">
+                    <input type="checkbox" name="participate" value="true" id="participate">
+                    <label for="participate">I participate in the trip</label>
+                </div>
+                <div class="agree">
+                    <input type="checkbox" name="accept" value="true" id="accept">
+                    <label for="accept">I accept the general conditions</label>
+                </div>
+                <div class="agree">
+                    <input type="checkbox" name="contact" value="true" id="contact">
+                    <label for="contact">I agree to be contacted by email</label>
+                </div>
+            </div>
+            <div class="book-container">
+                <label for="book"></label> 
+                <input class="button" id="book" type="submit" value="Book"/>        
             </div>
         </div>
     </main>
-
-
     <?php include 'burger.php'; ?>
     <footer>
         <?php include 'footer.php'; ?>
