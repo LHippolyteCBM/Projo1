@@ -61,10 +61,10 @@
 
         <div class="card-certif appa">
             <div class="rond-certif">
-                <img src="icone/rsz_nuclear.png">
+                <img src="icone/planet-earth.png">
             </div>
             <div class="button-text-certif">
-                <p>Nuclear friendly</p>
+                <p>Stellar famous</p>
                 <button class="popBtn">Read More</button>
             </div>
         </div>
@@ -72,7 +72,7 @@
         <div class="popDiv">
             <div class="triangle-pop"></div>
             <div class="text-inside-pp">
-                1
+                <p>Known across the univers, earth is the best place to go crazy. Many of our guests leave with mental disorder.</p>
             </div>
         </div>
 
@@ -90,16 +90,16 @@
         <div class="popDiv">
             <div class="triangle-pop"></div>
             <div class="text-inside-pp">
-                2
+                <p>Nuclear factories are awesome. Our guides will take you to Hiroshima, Tchernobyl and many more.</p>
             </div>
         </div>
 
         <div class="card-certif appa">
             <div class="rond-certif">
-                <img src="icone/rsz_nuclear.png">
+                <img src="icone/sejong-the-great.png">
             </div>
             <div class="button-text-certif">
-                <p>Nuclear friendly</p>
+                <p>Robot engineering</p>
                 <button class="popBtn">Read More</button>
             </div>
         </div>
@@ -107,17 +107,17 @@
         <div class="popDiv">
             <div class="triangle-pop"></div>
             <div class="text-inside-pp">
-                3
+                <p>Come and see how robot tech is put together. So advanced that they even steal our jobs. Facinating...</p>
             </div>
         </div>
 
 
         <div class="card-certif appa">
             <div class="rond-certif">
-                <img src="icone/rsz_nuclear.png">
+                <img src="icone/space.png">
             </div>
             <div class="button-text-certif">
-                <p>Nuclear friendly</p>
+                <p>Time travel</p>
                 <button class="popBtn">Read More</button>
             </div>
         </div>
@@ -125,7 +125,7 @@
         <div class="popDiv">
             <div class="triangle-pop"></div>
             <div class="text-inside-pp">
-                4
+                <p>Travel through time in our dimensional portal. Discover many sick times and how humans used to live.</p>
             </div>
         </div>
 

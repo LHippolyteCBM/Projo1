@@ -17,6 +17,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
 }
 
 body {
@@ -475,6 +476,7 @@ main{
     background-color: var(--backgroundLow);
     border-radius: 100px;
     height: 6em;
+    width: 9em;
     display: flex;
     justify-content: center;
     align-items: center;
