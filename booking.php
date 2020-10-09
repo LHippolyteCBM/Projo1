@@ -2,32 +2,31 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <?php include "header.php" ?>
-        <div class="banniere"></div>
+        <div class="banniere-booking banniere-home">
+            <?php include "header.php" ?>
+        </div>
     </header>
 
   
 
-    <main>
-    <div class=“booking-background”>
-        <div class=“booking-container”>
-            <p class=‘subscribe-title’ id=‘booking-title’>Easy Online Booking</p>
-            <div class=‘left-block’></div>
-            <p class=’left-text’ id=‘left-text-booking’>FLY<br><br>Through<br><br>TIME</p>
-            </div>
-            <div class=“right-block” id=‘right-block-booking’></div>
-        </div>
-    </div>
-        <div class="container-all">
+    <main class ="main-font-color">
+        <div class="intro-content">
             <h2>Booking</h2>
+            <p>You can book your futur travel here, put your destination, your budget, your dates and personal information.
+                and give us your money. </p>
+        </div>
+
+        <div class="container-all">  
             <div class="input-container">
                 <div class="case">
                     <label for="destination"></label>
@@ -98,7 +97,7 @@
             </div>
             <div class="input-container comment">
                 <label for="comment"></label>
-                <textarea id="comment" name="comment">Comment</textarea>
+                <textarea id="comment" name="comment" placeholder="Comment"></textarea>
             </div>
             <div class="checkbox-container">
                 <div class="agree">
@@ -115,7 +114,7 @@
                 </div>
             </div>
             <div class="book-container">
-                <label for="book"></label> 
+                <label for="button"></label> 
                 <input class="button" id="book" type="submit" value="Book"/>        
             </div>
         </div>
@@ -125,7 +124,12 @@
         <?php include 'footer.php'; ?>
     </footer>
     <script src="burger.js"></script>
+    <script src="apparition.js"></script>
     <script src="card.js"></script>
+    <script src="popBtn.js"></script>
+    <script src="meteo.js"></script>
+    <script src="navbar.js"></script>
+    <script src="nav.js"></script>
 </body>
 
 </html>

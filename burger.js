@@ -11,7 +11,7 @@ burgerBtn.addEventListener('click', function() {
     barreMenu[1].classList.toggle('changeMid')
     barreMenu[0].classList.toggle('changeTop');
     barreMenu[2].classList.toggle('changeBot');
-    if (sw === false) {
+    if (sw === false) { 
         menu.style.display = 'block';
         menu.style.bottom = (window.innerHeight - burgerDiv.offsetTop) + 'px';
         menu.classList.remove('animOff');
