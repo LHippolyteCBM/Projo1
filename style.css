@@ -84,6 +84,7 @@ nav {
     padding: 1em 0.8em;
     transition: all 0.2s;
     transition-delay: 0.2s;
+    
   }
 
   .nav-container .nav-items::before {
