@@ -770,11 +770,11 @@ input:focus{
             margin: auto;
         }
         textarea{
-            width: 114%;
+            width: 100%;
             margin-left: 12%;
         }
         .civility{
-            width: 120%;
+            width: 100%;
             margin: auto;
         }
 
