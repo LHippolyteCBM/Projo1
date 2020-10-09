@@ -18,8 +18,12 @@
     </header>
 
     <main class ="main-font-color">
+        <div class="title-content">
+            <h2>.Where to sleep ? Where to eat ?</h2>
+        </div>
+        <div class="vide">
+        </div>
         <div class="intro-content">
-            <h2>Where to sleep ? Where to eat ?</h2>
             <p>There is a lot to see on our beautiful planet Earth. We tried to select for you the most important to visit when you are here for a short time</p>
             <p>To do that, you will need a place to stay, a place to eat, a place to be... You will find on this page some advice about how spend your precious time.</p>
         </div>

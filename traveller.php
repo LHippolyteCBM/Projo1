@@ -17,8 +17,12 @@
     </header>
 
     <main class ="main-font-color">
+        <div class="title-content">
+            <h2>.How to come to Earth ?</h2>
+        </div>
+        <div class="vide">
+        </div>
         <div class="intro-content">
-            <h2>How to come to Earth ?</h2>
             <p>On this page you can find all informations you need in regards to every transports system available to come and go around on Earth.From low budget to premium transport services you will find what you need on this page.</p>
         </div>
         <div class="global-container-content">
