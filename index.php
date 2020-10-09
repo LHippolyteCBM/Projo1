@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="banniere-home">
@@ -21,29 +23,29 @@
         <div class="discover">
             <div class="discover-in">
                 <h2>.Discover our planet</h2>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum eveniet asperiores nemo quasi, dignissimos deserunt sapiente? Incidunt aspernatur ad tenetur asperiores quia reiciendis recusandae iste culpa, nam, esse dolorem eos!
+               <b>Welcome on Nucleus !</b> The official earth guide. Come and visit our GalaxyWilde known attractions.
+               You will be more than welcome in our restaurants to enjoy our local food and you can spend the rest of 
+               the day shopping in our amazing shops ! You can try amazing things like music listening or cinema,
+               exclusive earth activities. Let's share together what earth has to offer ! 
             </div>
             <div class="triangle">
             </div>
         </div>
 
 
-
-
-
         <h2 class="come">.Come!</h2>
         <div class="robot-text">
-
+            <p>as you are and meet our local resident !</p>
         </div>
         <div class="robot">
             <div class="robot-img-cadre">
                 <div class="home-image-slider">
                     <figure>
                         <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
-                        <img src="/img/adrien-converse-kCrrUx7US04-unsplash.jpg" alt>
-                        <img src="/img/leyy-71SHXwBLp5w-unsplash.jpg" alt>
-                        <img src="/img/zachary-smith-DgBNkXB-ckI-unsplash.jpg" alt>
-                        <img src="/img/photos-hobby-g29arbbvPjo-unsplash.jpg" alt>
+                        <img src="/img/robot.jpg" alt>
+                        <img src="/img/andro.jpg" alt>
+                        <img src="/img/trum.jpg" alt>
+                        <img src="/img/term.jpg" alt>
                     </figure>
                 </div>
             </div>
@@ -59,10 +61,10 @@
 
         <div class="card-certif appa">
             <div class="rond-certif">
-                <img src="icone/rsz_nuclear.png">
+                <img src="icone/planet-earth.png">
             </div>
             <div class="button-text-certif">
-                <p>Nuclear friendly</p>
+                <p>Stellar famous</p>
                 <button class="popBtn">Read More</button>
             </div>
         </div>
@@ -70,7 +72,7 @@
         <div class="popDiv">
             <div class="triangle-pop"></div>
             <div class="text-inside-pp">
-                1
+                <p>Known across the univers, earth is the best place to go crazy. Many of our guests leave with mental disorder.</p>
             </div>
         </div>
 
@@ -88,16 +90,16 @@
         <div class="popDiv">
             <div class="triangle-pop"></div>
             <div class="text-inside-pp">
-                2
+                <p>Nuclear factories are awesome. Our guides will take you to Hiroshima, Tchernobyl and many more.</p>
             </div>
         </div>
 
         <div class="card-certif appa">
             <div class="rond-certif">
-                <img src="icone/rsz_nuclear.png">
+                <img src="icone/sejong-the-great.png">
             </div>
             <div class="button-text-certif">
-                <p>Nuclear friendly</p>
+                <p>Robot engineering</p>
                 <button class="popBtn">Read More</button>
             </div>
         </div>
@@ -105,17 +107,17 @@
         <div class="popDiv">
             <div class="triangle-pop"></div>
             <div class="text-inside-pp">
-                3
+                <p>Come and see how robot tech is put together. So advanced that they even steal our jobs. Facinating...</p>
             </div>
         </div>
 
 
         <div class="card-certif appa">
             <div class="rond-certif">
-                <img src="icone/rsz_nuclear.png">
+                <img src="icone/space.png">
             </div>
             <div class="button-text-certif">
-                <p>Nuclear friendly</p>
+                <p>Time travel</p>
                 <button class="popBtn">Read More</button>
             </div>
         </div>
@@ -123,7 +125,7 @@
         <div class="popDiv">
             <div class="triangle-pop"></div>
             <div class="text-inside-pp">
-                4
+                <p>Travel through time in our dimensional portal. Discover many sick times and how humans used to live.</p>
             </div>
         </div>
 
@@ -132,14 +134,12 @@
 
     <div class="paysage">
         <p><b>Amazing Landscape</b></br>
-            Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit.</br>
-            * Ea, nulla! Blanditiis molestias mollitia doloribus natus</br>
+            Earth got some marvelous places to stop by.</br>
             veniam et commodi, nesciunt</br>
             tempore quibusdam nostrum placeat ipsum </br>
             laborum hic libero. Asperiores, libero corporis.</p>
         <div class="robot-img-cadre appa">
-            <img class="robot-img" src="https://picsum.photos/800/300" alt="" />
+            <img class="robot-img" src="img/landscape.jpg" alt="" />
         </div>
     </div>
 
@@ -197,4 +197,5 @@
     <script src="nav.js"></script>
 
 </body>
+
 </html>
