@@ -674,13 +674,13 @@ input:focus{
             height: 100%;
         }
         .date{
-            width: 128px;
+            width: 100%;
             height: 31px; 
-            margin-left: 0%;
+            margin-left: 5%;
             margin-bottom: 10%;
         }
         .civility{
-            width: 142px;
+            width: 105%;
             height: 37px; 
             margin-left: 5%;
             margin-bottom: 10%;
@@ -692,8 +692,9 @@ input:focus{
             outline: none;
         }
         .comment{
-            max-width: 60%;
-            height: 60px;
+            max-width: 73%;
+            height: 90px;
+            margin-left: 15%;
         }
             textarea{
                 width: 95%;
@@ -712,7 +713,7 @@ input:focus{
         
     }
     .champs, select{
-        max-width: 200px;
+        width: 100%;
         height: 25px;
         margin: 5%;
     }
@@ -772,13 +773,24 @@ input:focus{
             width: 114%;
             margin-left: 12%;
         }
+        .civility{
+            width: 120%;
+            margin: auto;
+        }
 
         .book-container {
             margin-bottom: 2em;
             width: 55%;
         }
         .date{
-            margin-left: 5%;
+            margin-left: 14%;
+            width: 81%;
+
+        }
+        #comment{
+            width: 70%;
+            height: 70%;
+            margin-left: 9%;
         }
     }
     
