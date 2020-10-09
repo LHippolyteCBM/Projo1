@@ -989,7 +989,7 @@ footer a {
 }
 
 .main-font-color{
-    background-color: #616698;
+    background-color:  var(--backgroundHight);
 }
 
 /*MOBILE */
