@@ -35,7 +35,7 @@
         </div>
         <div class="global-container-content">
             <div class="container-content appa">
-                <img src="img/AtmosShuttle.jpg" alt="Atmospheric Shuttle Picture">
+                <img src="img/navette.jpg" alt="Atmospheric Shuttle Picture">
                 <h3>Planetary Shuttle and Nuuber</h3>
                 <p>The second way to go down to surface is a Premium Planetary Shuttle of the Nuuber compagny, it's faster, less crowded than the elevator and more comfortable! the Nuuber company also provides private drivers and atmospheric vehicules to it's client!</p>
             </div>
