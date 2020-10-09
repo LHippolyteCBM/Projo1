@@ -22,9 +22,12 @@
     <main class ="main-font-color">
         <div class="title-content">
             <h2>.Booking</h2>
+            
         </div>
         <div class="vide">
+            
         </div>
+        
         <div class="intro-content">
             <p>You can book your futur travel here, put your destination, your budget, your dates and personal information and give us your money. </p>
         <div class="container-all">  
