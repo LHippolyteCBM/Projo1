@@ -19,8 +19,12 @@
 
 
 
-
+       
     <main class ="main-font-color">
+        <h2 class="text-h2" id='h2-activities'>Online Booking.</h2> 
+        <div class="rectangle-div-top">
+        </div>
+        
         <div class="intro-content">
             <h2>Top activities</h2>
             <p>Planet Earth offers many great activities. Whatever your favorite hobbies are, you’ll find something you like here. We provide a large offer of food and drinks places, as well as cultural and sportive activities. Moreover, our great planet offers a variety of landscapes. You can visit ancient beaches, old mountains, or countryside. All places are friendly for families, and robots.</p>
