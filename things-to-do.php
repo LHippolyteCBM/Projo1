@@ -21,11 +21,16 @@
 
 
     <main class ="main-font-color">
+        <div class="title-content">
+            <h2>.Top activities</h2>
+        </div>
+        <div class="vide">
+        </div>
         <div class="intro-content">
-            <h2>Top activities</h2>
             <p>Planet Earth offers many great activities. Whatever your favorite hobbies are, you’ll find something you like here. We provide a large offer of food and drinks places, as well as cultural and sportive activities. Moreover, our great planet offers a variety of landscapes. You can visit ancient beaches, old mountains, or countryside. All places are friendly for families, and robots.</p>
             <p>Each week you’ll find here our top things to do on planet Earth. All our activities are all-inclusive if you booked your trip thanks to our website. </p>
         </div>
+        
         <div class="global-container-content ">
             <div class="container-content">
                 <img src="img/food-todo.jpg" alt="Diner picture">
