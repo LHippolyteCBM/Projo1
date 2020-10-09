@@ -9,7 +9,7 @@
     --heightBannerMobile: 15em;
     --bannerH1SizeDesktop: 4em;
     --bannerH1SizeMobile: 3em;
-    --bannerH2SizeDesktop: 2em;
+    --bannerH2SizeDesktop: 50px;
     --bannerH2SizeMobile: 1.5em;
 }
 
@@ -930,10 +930,21 @@ footer a {
     margin: 3%;
 }
 
-.intro-content h2 {
+.title-content{
+    margin-top:0;
+    width: 95%;
+}
+
+.title-content h2 {
     margin-bottom: 3%;
-    text-decoration: underline var(--backgroundMedium);
+    /*text-decoration: underline var(--backgroundMedium);*/
     font-size: var(--bannerH2SizeDesktop);
+}
+
+.vide {
+    height: 1em;
+    background-color: var(--background);
+    width: 100%;
 }
 
 .global-container-content {
